@@ -19,19 +19,18 @@ package="com.example.brainroom">
         android:name=".MainActivity"
         android:exported="false" />
     <activity
-        android:name="com.example.Mapel.Matematika"
+        android:name=".Mapel.Matematika"
         android:exported="false" />
     <activity
-        android:name="com.example.Mapel.Fisika"
+        android:name=".Mapel.Fisika"
         android:exported="false" />
     <activity
-        android:name="com.example.Mapel.BahasaInggris"
+        android:name=".Mapel.BahasaInggris"
         android:exported="false" />
 
     <activity
-        android:name="com.example.Login.SignIn"
-        android:exported="true"
-        />
+        android:name=".Login.SignIn"
+        android:exported="true" />
     <activity
         android:name=".MainActivity"
         android:exported="true"
@@ -45,4 +44,6 @@ package="com.example.brainroom">
 </application>
 
 </manifest>
+
+
 
