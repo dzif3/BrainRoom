@@ -1,10 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-  <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login.SignIn">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/background">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="263dp"
+        android:layout_height="142dp"
+        app:layout_constraintBottom_toBottomOf="@+id/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brainroom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:id="@+id/login"
+        android:textColor="@color/black"
+        android:layout_gravity="left"
+        android:layout_marginLeft="45dp"
+        android:text="Login"/>
+
+    <EditText
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        android:background="#fffff"
+        android:textColorHint="@color/biru"
+        android:padding="5dp"
+        android:id="@+id/enterusername"
+        android:hint="Enter username"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="12sp"
+        />
+
+    <EditText
+        android:inputType="textPassword"
+        android:textColorHint="@color/biru"
+        android:layout_marginTop="15dp"
+        android:background="#fffff"
+        android:id="@+id/enterpassword"
+        android:padding="5dp"
+        android:hint="Enter password"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="12sp"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="30dp"
+        android:text="NEXT"
+        android:textColor="#ffff"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:background="@drawable/rounded_corner"/>
+    //line ke 63 atau background tint bisa di ganti ke drawable rounded corner buat nambah radius di button tinggal copy link
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:orientation="vertical"
+      android:gravity="top|center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/biru"
+        android:text="Forget password"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="20dp"
+          android:text="Dont Have an account"
+          android:textSize="20dp"
+          android:textColor="@color/biru"/>
+
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

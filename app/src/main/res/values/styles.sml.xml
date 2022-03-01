@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <color name="background">#F9F9F9</color>
+        <color name="biru">#007AFF</color>
+        <color name="black">#FF000000</color>
+    </style>
+
+</resources>
