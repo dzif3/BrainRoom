@@ -21,29 +21,29 @@ public class KuisFisika extends AppCompatActivity {
 
     //pertanyaan
     String[] pertanyaan_kuis = new String[]{
-            "1. Presiden Indonesia yang keenam adalah",
-            "2. Lambang Negara Indonesia adalah",
-            "3. Ibukota Indonesia adalah",
-            "4. Lagu Kebangsaan Indonesia adalah",
-            "5. Bendera Negara Indonesia adalah"
+            "1. Dari contoh soal pertama, bila lantai kondisinya menjadi licin atau koefisien gaya gesek dihilangkan (μ=0), berapa percepatan objeknya?",
+            "2. Sebuah box berada di atas permukaan datar berkoefisien gesek statis 0,3 serta gesek kinetis 0,1. Apabila massa box sebesar 15 kg, kemudian ditarik dengan gaya sebesar 60 N, berapa gaya gesek box terhadap permukaan dan percepatannya?",
+            "3. Berdasarkan contoh soal kelima, jika gayanya diperkecil menjadi 30N, berapa besar gaya geseknya saat ini?",
+            "4. Hitunglah kembali contoh soal ketujuh jika koefisien gaya gesek kedua box menjadi 0,1.",
+            "5. Berdasarkan contoh soal kesembilan, jika massa box diperkecil menjadi A = 20 kg dan B = 5 kg sementara gaya F juga diperkecil menjadi 250 N, berapa gaya kontaknya saat ini?"
     };
 
     //pilihan jawaban a, b, c, d
     String[] pilihan_jawaban = new String[]{
-            "Soekarno", "Habibie", "Susilo Bambang Yudhoyono", "Joko Widodo",
-            "Gajah Putih", "Garuda", "Macan", "Elang",
-            "Jakarta", "Bogor", "Tangerang", "Bekasi",
-            "Indonesia Raya", "Tanah Airku", "Indonesia Pusaka", "Indonesia Merdeka",
-            "Merah Biru Putih", "Merah Putih", "Putih Merah", "Belang-belang"
+            "5 m/s2", "10 m/s2", "2 m/s2", "8 m/s2",
+            "13 m/s2", "10 N", "45 N & 3 m/s2", "19 N",
+            "17 N", "5 N", "40 N", "30 N",
+            "20 N", "30 N", "10 N", "40 N",
+            "50 N", "11 m/s2", "8 m/s2", "10 N"
     };
 
     //jawaban benar
     String[] jawaban_benar = new String[]{
-            "Susilo Bambang Yudhoyono",
-            "Garuda",
-            "Jakarta",
-            "Indonesia Raya",
-            "Merah Putih"
+            "5 m/s2",
+            "45 N & 3 m/s2",
+            "30 N",
+            "30 N",
+            "50 N"
     };
 
     @Override
@@ -92,7 +92,7 @@ public class KuisFisika extends AppCompatActivity {
             }
         }
         else {
-            Toast.makeText(this,"Kamu Jawab Dulu",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Silahkan Pilih jawaban diatas",Toast.LENGTH_LONG).show();
         }
     }
 }
