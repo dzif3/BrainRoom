@@ -69,10 +69,10 @@
         android:text="NEXT"
         android:textColor="#ffff"
         android:textSize="15sp"
+        android:radius="41dp"
         android:textStyle="normal"
-        android:background="@drawable/rounded_corner"/>
-    //line ke 63 atau background tint bisa di ganti ke drawable rounded corner buat nambah radius di button tinggal copy link
-
+        android:background="@drawable/rounded_corner">
+    </Button>
   </LinearLayout>
 
   <LinearLayout
