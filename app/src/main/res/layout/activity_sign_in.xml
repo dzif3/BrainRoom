@@ -35,38 +35,54 @@
         android:layout_marginLeft="45dp"
         android:text="Login"/>
 
-    <EditText
-        android:inputType="text"
-        android:layout_marginTop="30dp"
-        android:background="#fffff"
-        android:textColorHint="@color/biru"
-        android:padding="5dp"
-        android:id="@+id/enterusername"
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:inputType="textPersonName"
+        android:id="@+id/til_name"
+        android:layout_width="311dp"
         android:hint="Enter username"
-        android:layout_width="300dp"
-        android:layout_height="45dp"
-        android:textSize="12sp"
-        />
+        android:layout_height="wrap_content"
+        app:endIconMode="clear_text"
+        app:helperText="Mandatory"
+        app:helperTextTextColor="@color/biru"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
 
     <EditText
-        android:inputType="textPassword"
-        android:textColorHint="@color/biru"
-        android:layout_marginTop="15dp"
-        android:background="#fffff"
-        android:id="@+id/enterpassword"
-        android:padding="5dp"
+        android:id="@+id/enterusername"
+        android:layout_width="300dp"
+        android:layout_height="45dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:prefixText="+91"
+        app:counterEnabled="true"
+        app:counterMaxLength="21"
         android:hint="Enter password"
+        app:endIconMode="clear_text"
+        app:helperText="Mandatory"
+        app:helperTextTextColor="@color/biru"
+        app:startIconDrawable="@drawable/ic_baseline_remove_red_eye_24"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <EditText
+        android:id="@+id/entepassword"
         android:layout_width="300dp"
         android:layout_height="45dp"
-        android:textSize="12sp"
-        />
+        android:maxLength="10"
+        android:imeOptions="actionNext"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btn_login"
         android:layout_width="300dp"
         android:layout_height="56dp"
         android:layout_marginTop="30dp"
-        android:text="NEXT"
+        android:text="Next"
         android:textColor="#ffff"
         android:textSize="15sp"
         android:radius="41dp"
