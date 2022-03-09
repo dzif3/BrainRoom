@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="10dp"
-    android:background="@color/Gray_100"
+    android:background="@color/gray"
     android:id="@+id/kuis_fisika">
 
     <LinearLayout

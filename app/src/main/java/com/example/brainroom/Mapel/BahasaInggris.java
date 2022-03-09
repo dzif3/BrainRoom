@@ -3,6 +3,8 @@ package com.example.brainroom.Mapel;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.brainroom.R;
+
 public class BahasaInggris extends AppCompatActivity {
 
     @Override
