@@ -22,13 +22,13 @@
         <!-- android:name=".MainActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".Mapel.Matematika"
+            android:name=".Mapel.Matematika.Matematika"
             android:exported="false" />
         <activity
-            android:name=".Mapel.Fisika"
+            android:name=".Mapel.Fisika.Fisika"
             android:exported="false" />
         <activity
-            android:name=".Mapel.BahasaInggris"
+            android:name=".Mapel.BahasaInggris.BahasaInggris"
             android:exported="false" />
         <activity
             android:name=".Login.SignIn"
