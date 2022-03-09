@@ -87,7 +87,7 @@ public class KuisFisika extends AppCompatActivity {
 
             } else {
                 hasil = benar * 20;
-                Intent selesai = new Intent(getApplicationContext(), HasilKuis.class);
+                Intent selesai = new Intent(getApplicationContext(), HasilKuis1.class);
                 startActivity(selesai);
             }
         }

@@ -10,7 +10,7 @@ package="com.example.brainroom">
     android:supportsRtl="true"
     android:theme="@style/Theme.BrainRoom">
     <activity
-        android:name=".Kuis.HasilKuis"
+        android:name=".Kuis.HasilKuis1"
         android:exported="false" />
     <activity
         android:name=".Kuis.KuisMatematika"

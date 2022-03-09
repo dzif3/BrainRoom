@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.example.brainroom.R;
 
-public class HasilKuis extends AppCompatActivity {
+public class HasilKuis1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
