@@ -21,29 +21,36 @@ public class KuisMatematika extends AppCompatActivity {
     public static int hasil1, benar1, salah1;
 
     String[] pertanyaan_kuis_mtk = new String[]{
-            "1. Dari contoh soal pertama, bila lantai kondisinya menjadi licin atau koefisien gaya gesek dihilangkan (μ=0), berapa percepatan objeknya?",
-            "2. Sebuah box berada di atas permukaan datar berkoefisien gesek statis 0,3 serta gesek kinetis 0,1. Apabila massa box sebesar 15 kg, kemudian ditarik dengan gaya sebesar 60 N, berapa gaya gesek box terhadap permukaan dan percepatannya?",
-            "3. Berdasarkan contoh soal kelima, jika gayanya diperkecil menjadi 30N, berapa besar gaya geseknya saat ini?",
-            "4. Hitunglah kembali contoh soal ketujuh jika koefisien gaya gesek kedua box menjadi 0,1.",
-            "5. Berdasarkan contoh soal kesembilan, jika massa box diperkecil menjadi A = 20 kg dan B = 5 kg sementara gaya F juga diperkecil menjadi 250 N, berapa gaya kontaknya saat ini?"
+            "1. Berapa kelipatan angka 6 lebih besar dari 32 dan lebih kecil dari 50?",
+            "2. Kelipatan persekutuan dari 4 dan 7 adalah ……",
+            "3. Topik: Faktor Bilangan\n" +
+                    "\n" +
+                    "12, 15, 16, 20\n" +
+                    "\n" +
+                    "Manakah dari bilangan di atas yang tidak habis dibagi 4?",
+            "4. Topik: Operasi Hitung Bilangan\n" +
+                    "\n" +
+                    "Sifat distributif dari 3 x (5-2) adalah …..\n" +
+                    "\n",
+            "5. Lambang bilangan bulat negatif dari tiga puluh enam yaitu …."
     };
 
     //pilihan jawaban a, b, c, d
     String[] pilihan_jawaban_mtk = new String[]{
-            "5 m/s2", "10 m/s2", "2 m/s2", "8 m/s2",
-            "13 m/s2", "10 N", "45 N & 3 m/s2", "19 N",
-            "17 N", "5 N", "40 N", "30 N",
-            "20 N", "30 N", "10 N", "40 N",
-            "50 N", "11 m/s2", "8 m/s2", "10 N"
+            "34, 38, 49", "34, 39, 48", "36, 41, 49", "36, 42, 48",
+            "26", "28", "32", "48",
+            "12", "15", "16", "20",
+            "3 x 5 – 2", "5 -2 x 3", "(3 x 5) – (3 x 2)", "(3 x 2) – 5",
+            "Negatif 36", "36-", "+36", "-36"
     };
 
     //jawaban benar
     String[] jawaban_benar_mtk = new String[]{
-            "5 m/s2",
-            "45 N & 3 m/s2",
-            "30 N",
-            "30 N",
-            "50 N"
+            "36, 42, 48",
+            "28",
+            "15",
+            "(3 x 5) – (3 x 2)",
+            "-36"
     };
 
     @Override
@@ -87,7 +94,7 @@ public class KuisMatematika extends AppCompatActivity {
 
             } else {
                 hasil1 = benar1 * 20;
-                Intent selesai = new Intent(getApplicationContext(), HasilKuis1.class);
+                Intent selesai = new Intent(getApplicationContext(), HasilKuis.class);
                 startActivity(selesai);
             }
         }
