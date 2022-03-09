@@ -66,7 +66,7 @@
         app:endIconMode="password_toggle"
         app:helperText="Required*"
         app:helperTextTextColor="@color/biru"
-        app:prefixText="+91"
+        app:prefixText="+62"
         app:startIconDrawable="@drawable/ic_baseline_lock_24">
 
       <EditText
