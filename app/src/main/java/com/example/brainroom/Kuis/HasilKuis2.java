@@ -15,16 +15,16 @@ public class HasilKuis2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hasil_kuis2);
-        TextView hasil = (TextView)findViewById(R.id.hasil1);
-        TextView nilai = (TextView)findViewById(R.id.nilai1);
+        TextView hasil = (TextView)findViewById(R.id.hasil2);
+        TextView nilai = (TextView)findViewById(R.id.nilai2);
 
-        hasil.setText("Jawaban Benar :"+KuisMatematika.benar1+"\nJawaban Salah :"+KuisMatematika.salah1);
-        nilai.setText(""+KuisMatematika.hasil1);
+        hasil.setText("Jawaban Benar :"+KuisInggris.benar2+"\nJawaban Salah :"+KuisInggris.salah2);
+        nilai.setText(""+KuisInggris.hasil2);
     }
 
     public void ulangi(View view){
         finish();
-        Intent a = new Intent(getApplicationContext(),KuisFisika.class);
+        Intent a = new Intent(getApplicationContext(),KuisInggris.class);
         startActivity(a);
     }
 }

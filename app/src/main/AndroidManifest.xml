@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BrainRoom">
         <activity
+            android:name=".Kuis.HasilKuis3"
+            android:exported="false" />
+        <activity
+            android:name=".Kuis.KuisIndo"
+            android:exported="false" />
+        <activity
             android:name=".Kuis.HasilKuis2"
             android:exported="false" />
         <activity

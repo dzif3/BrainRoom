@@ -24,7 +24,7 @@ public class HasilKuis1 extends AppCompatActivity {
 
     public void ulangi(View view){
         finish();
-        Intent a = new Intent(getApplicationContext(),KuisFisika.class);
+        Intent a = new Intent(getApplicationContext(),KuisMatematika.class);
         startActivity(a);
     }
 }

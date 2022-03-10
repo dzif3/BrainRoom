@@ -17,8 +17,8 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="263dp"
-        android:layout_height="142dp"
+        android:layout_width="253dp"
+        android:layout_height="139dp"
         app:layout_constraintBottom_toBottomOf="@+id/login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
 
     <Button
         android:id="@+id/btn_login"
-        android:layout_width="300dp"
+        android:layout_width="311dp"
         android:layout_height="56dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/rounded_corner"
