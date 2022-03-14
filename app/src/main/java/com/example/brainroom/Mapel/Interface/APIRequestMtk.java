@@ -5,7 +5,7 @@ import com.example.brainroom.Mapel.Model.ResponseModel;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
-public interface APIRequestIndo {
-    @GET("dataindo.php")
-    Call<ResponseModel> ardRetrieveDataindo();
+public interface APIRequestMtk {
+    @GET("datamtk.php")
+    Call<ResponseModel> ardRetrieveDatamtk();
 }

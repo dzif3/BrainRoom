@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
-    android:padding="13dp"
+    android:padding="10dp"
     >
 
     <LinearLayout
@@ -29,7 +29,7 @@
             android:textStyle="bold"
             android:textColor="#000000"
             tools:text="@string/app_name"
-            android:layout_marginTop="14dp"/>
+            />
         <TextView
             android:id="@+id/semester"
             android:layout_width="match_parent"
@@ -39,23 +39,7 @@
             tools:text="detail"
             />
 
-        <TextView
-            android:id="@+id/subjudul"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:maxLines="2"
-            tools:text="detail"
-            />
 
-        <TextView
-            android:id="@+id/isi"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:maxLines="2"
-            tools:text="detail"
-            />
 
     </LinearLayout>
 </RelativeLayout>
