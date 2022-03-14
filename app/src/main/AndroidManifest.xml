@@ -28,13 +28,13 @@
         <!-- android:name=".MainActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".Mapel.Matematika.Matematika"
+            android:name=".Mapel.activity.Matematika"
             android:exported="false" />
         <activity
-            android:name=".Mapel.Fisika.Fisika"
+            android:name=".Mapel.activity.Fisika"
             android:exported="false" />
         <activity
-            android:name=".Mapel.BahasaInggris.BahasaInggris"
+            android:name=".Mapel.activity.BahasaInggris"
             android:exported="false" />
         <activity
             android:name=".Login.SignIn"
