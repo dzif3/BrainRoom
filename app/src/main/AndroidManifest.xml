@@ -29,7 +29,7 @@ package="com.example.brainroom">
         android:exported="false" />
 
     <activity
-        android:name=".Login.SignIn"
+        android:name=".Login.LogIn"
         android:exported="true" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
