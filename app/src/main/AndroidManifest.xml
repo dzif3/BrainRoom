@@ -16,6 +16,16 @@
         android:theme="@style/Theme.BrainRoom"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".tester"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".Kuis.HasilKuis2"
             android:exported="false" />
         <activity
@@ -29,30 +39,26 @@
             android:exported="false" />
         <activity
             android:name=".Kuis.KuisMatematika"
-            android:exported="false" /> <!-- <activity -->
+            android:exported="false" />
         <activity
             android:name=".Login.SignIn"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
 
         <activity
             android:name=".Mapel.activity.BahasaInggris"
             android:exported="false" />
         <activity
             android:name=".Mapel.activity.BahasaIndonesia"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Mapel.activity.Fisika"
             android:exported="false" />
         <activity
             android:name=".Mapel.activity.Matematika"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
