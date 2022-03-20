@@ -1,4 +1,4 @@
-package com.example.brainroom.Mapel.IPS;
+package com.example.brainroom.Mapel.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
