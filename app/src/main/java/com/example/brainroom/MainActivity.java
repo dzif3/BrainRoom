@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        ImageView mtk = (ImageView) findViewById(R.id.button_matematika);
-        mtk.setOnClickListener(new View.OnClickListener() {
+        ImageView mtka = (ImageView) findViewById(R.id.button_matematika);
+        mtka.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Matematika.class);
                 startActivity(intent);

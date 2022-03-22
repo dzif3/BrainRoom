@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
     android:layout_gravity="center"
-
     android:orientation="vertical">
 
     <LinearLayout
+        android:background="@drawable/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:orientation="vertical"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="90dp"
         >
     <ImageView
         android:layout_marginLeft="132dp"
@@ -32,10 +31,10 @@
         app:cardCornerRadius="15dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:id="@+id/imageViewCardHome"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_gravity="left"
             android:src="@drawable/bio"
             android:layout_marginLeft="20dp"/>
@@ -78,10 +77,10 @@
             android:textSize="15sp"/>
         <ImageView
             android:id="@+id/buttonsetting"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginLeft="290dp"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="300dp"
             android:background="@drawable/buttonsetting"/>
 
     </androidx.cardview.widget.CardView>
