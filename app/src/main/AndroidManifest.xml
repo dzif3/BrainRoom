@@ -19,17 +19,17 @@ package="com.example.brainroom">
 <!--        android:name=".MainActivity"-->
 <!--        android:exported="false" />-->
     <activity
-        android:name=".Mapel.Matematika"
+        android:name=".Mapel.activity.Matematika"
         android:exported="false" />
     <activity
-        android:name=".Mapel.Fisika"
+        android:name=".Mapel.activity.Fisika"
         android:exported="false" />
     <activity
-        android:name=".Mapel.BahasaInggris"
+        android:name=".Mapel.activity.BahasaInggris"
         android:exported="false" />
 
     <activity
-        android:name=".Login.SignIn"
+        android:name=".Login.LogIn"
         android:exported="true" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
