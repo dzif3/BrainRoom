@@ -58,13 +58,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="21dp"
             android:hint="Enter username"
+            android:textColorHint="@color/gray"
             android:inputType="textPersonName"
             app:endIconMode="clear_text"
             app:helperText="Required*"
             app:helperTextTextColor="@color/biru"
-            app:startIconDrawable="@drawable/ic_baseline_person_24">
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            app:startIconTint="@color/gray">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/enterusername"
                 android:layout_width="300dp"
                 android:layout_height="45dp" />
