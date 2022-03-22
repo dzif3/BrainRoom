@@ -4,7 +4,6 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1855" />
-        <entry key="app/src/main/res/drawable/halo.xml" value="0.141" />
         <entry key="app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.1855" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1855" />
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.1855" />
@@ -13,10 +12,7 @@
         <entry key="app/src/main/res/layout/activity_biologi.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_fisika.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_hasil_kuis.xml" value="0.24664370771767435" />
-        <entry key="app/src/main/res/layout/activity_hasil_kuis1.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/activity_ips.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/activity_kuis_fisika.xml" value="0.3330718994140625" />
-        <entry key="app/src/main/res/layout/activity_kuis_inggris.xml" value="0.8709677419354839" />
         <entry key="app/src/main/res/layout/activity_kuis_matematika.xml" value="0.24947916666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17527173913043478" />
         <entry key="app/src/main/res/layout/activity_matematika.xml" value="0.1" />
@@ -24,7 +20,6 @@
         <entry key="app/src/main/res/layout/activity_tester.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/itulah.xml" value="0.19157608695652173" />
         <entry key="app/src/main/res/layout/kuis_fisika.xml" value="0.3132827758789063" />
-        <entry key="app/src/main/res/layout/row_card.xml" value="0.28229166666666666" />
       </map>
     </option>
   </component>
