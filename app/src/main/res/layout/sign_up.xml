@@ -9,28 +9,6 @@
     android:padding="10dp"
     android:background="@color/background">
 
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="391dp"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="0dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="left"
-        android:background="@color/lightgray"
-        android:id="@+id/upbar">
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="391dp"
-            android:layout_height="30dp"
-            android:background="@drawable/cornergray">
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="49dp"
-                android:src="@drawable/back"
-                android:layout_marginStart="0dp"/>
-
-        </androidx.cardview.widget.CardView>
-    </androidx.appcompat.widget.LinearLayoutCompat>
     <LinearLayout
         android:layout_width="391dp"
         android:layout_height="819dp"
