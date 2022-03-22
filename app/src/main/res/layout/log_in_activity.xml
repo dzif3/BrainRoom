@@ -48,7 +48,7 @@
             android:layout_marginTop="22dp">
 
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/enterusername"
                 android:layout_width="300dp"
                 android:layout_height="45dp" />
@@ -63,7 +63,7 @@
             android:hint="Enter password"
             app:startIconDrawable="@drawable/ic_baseline_lock_24">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/entepassword"
                 android:layout_width="300dp"
                 android:layout_height="45dp"

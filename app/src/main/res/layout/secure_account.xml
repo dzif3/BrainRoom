@@ -70,7 +70,7 @@
             app:helperTextTextColor="@color/biru"
             app:startIconDrawable="@drawable/ic_baseline_email_24">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/enteremail"
                 android:layout_width="300dp"
                 android:layout_height="45dp" />
@@ -105,7 +105,7 @@
                 android:layout_marginTop="22dp">
 
 
-                <EditText
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
 
@@ -118,7 +118,7 @@
                 android:layout_marginTop="15dp"
                 android:hint="Repeat password">
 
-                <EditText
+                <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/repeatpassword"
                     android:layout_width="300dp"
                     android:layout_height="45dp"

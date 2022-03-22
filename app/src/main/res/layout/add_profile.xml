@@ -80,7 +80,7 @@
                 app:helperTextTextColor="@color/biru"
                 android:inputType="textPersonName"
                 android:layout_marginTop="22dp">
-                <EditText
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
 
@@ -97,7 +97,7 @@
                 app:endIconMode="clear_text"
                 app:helperText="Required*"
                 app:helperTextTextColor="@color/biru">
-                <EditText
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
 
@@ -112,7 +112,7 @@
                 android:inputType="textPersonName"
                 app:endIconMode="clear_text"
                 android:layout_marginTop="12dp">
-                <EditText
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
 
@@ -127,7 +127,7 @@
                 android:inputType="textPersonName"
                 app:endIconMode="clear_text"
                 android:layout_marginTop="22dp">
-                <EditText
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
 
