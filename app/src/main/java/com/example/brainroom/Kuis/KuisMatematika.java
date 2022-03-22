@@ -58,12 +58,12 @@ public class KuisMatematika extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kuis_matematika);
 
-        kuis1 = (TextView) findViewById(R.id.kuis);
-        rg1 = (RadioGroup) findViewById(R.id.pilihan);
-        PilihanA1 = (RadioButton) findViewById(R.id.pilihanA);
-        PilihanB1 = (RadioButton) findViewById(R.id.pilihanB);
-        PilihanC1 = (RadioButton) findViewById(R.id.pilihanC);
-        PilihanD1 = (RadioButton) findViewById(R.id.pilihanD);
+        kuis1 = (TextView) findViewById(R.id.kuis1);
+        rg1 = (RadioGroup) findViewById(R.id.pilihan1);
+        PilihanA1 = (RadioButton) findViewById(R.id.pilihanA1);
+        PilihanB1 = (RadioButton) findViewById(R.id.pilihanB1);
+        PilihanC1 = (RadioButton) findViewById(R.id.pilihanC1);
+        PilihanD1 = (RadioButton) findViewById(R.id.pilihanD1);
 
         kuis1.setText(pertanyaan_kuis_mtk[nomor1]);
         PilihanA1.setText(pilihan_jawaban_mtk[0]);

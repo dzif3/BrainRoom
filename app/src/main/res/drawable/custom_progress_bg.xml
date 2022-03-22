@@ -4,7 +4,7 @@
 <item android:id="@+id/bar_background">
     <shape android:shape="rectangle">
         <corners android:radius="6dp"/>
-        <solid android:color="@color/lightgray"/>
+        <solid android:color="@color/black"/>
     </shape>
 </item>
 

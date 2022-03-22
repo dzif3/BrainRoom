@@ -2,12 +2,16 @@
 xmlns:tools="http://schemas.android.com/tools"
 package="com.example.brainroom">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
 <application
     android:allowBackup="true"
     android:icon="@mipmap/ic_launcher"
     android:label="@string/app_name"
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
+    android:usesCleartextTraffic="true"
     android:theme="@style/Theme.BrainRoom">
     <activity
         android:name=".Kuis.HasilKuis"
@@ -15,32 +19,42 @@ package="com.example.brainroom">
     <activity
         android:name=".Kuis.KuisMatematika"
         android:exported="false" />
-<!--    <activity-->
-<!--        android:name=".MainActivity"-->
-<!--        android:exported="false" />-->
     <activity
-        android:name=".Mapel.Matematika"
+        android:name=".Kuis.KuisInggris"
         android:exported="false" />
     <activity
-        android:name=".Mapel.Fisika"
-        android:exported="false" />
-    <activity
-        android:name=".Mapel.BahasaInggris"
+        android:name=".Kuis.KuisFisika"
         android:exported="false" />
 
+    //pisah//
     <activity
-        android:name=".Login.SignIn"
+        android:name=".Mapel.activity.Matematika"
+        android:exported="false" />
+    <activity
+        android:name=".Mapel.activity.Fisika"
+        android:exported="false" />
+    <activity
+        android:name=".Mapel.activity.BahasaInggris"
+        android:exported="false" />
+
+    <activity android:name=".Mapel.activity.BahasaIndonesia"
+        android:exported="false"/>
+
+    <activity
+        android:name=".Login.LogIn"
         android:exported="true" >
+    </activity>
+
+    <activity
+        android:name=".MainActivity"
+        android:exported="true"
+        tools:ignore="DuplicateActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
-    <activity
-        android:name=".MainActivity"
-        android:exported="true"
-        tools:ignore="DuplicateActivity"/>
 
 
 </application>

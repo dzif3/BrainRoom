@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.brainroom.Mapel.Interface.APIRequestMtk;
+import com.example.brainroom.Mapel.Interface.APIRequestData;
 import com.example.brainroom.Mapel.Model.DataModel;
 import com.example.brainroom.Mapel.Model.ResponseModel;
 import com.example.brainroom.Mapel.sAdapter.AdapterData;
@@ -40,7 +40,7 @@ public class Matematika extends AppCompatActivity {
     }
 
     private void mapelData() {
-        APIRequestMtk ardData = RetroServer.konekRetrofit().create(APIRequestMtk.class);
+        APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
         Call<ResponseModel> tampilData = ardData.ardRetrieveDatamtk();
 
         tampilData.enqueue(new Callback<ResponseModel>() {
@@ -55,6 +55,7 @@ public class Matematika extends AppCompatActivity {
                 recyclerView.setAdapter(rvadapter);
                 rvadapter.notifyDataSetChanged();
             }
+
 
             @Override
             public void onFailure(Call<ResponseModel> call, Throwable t) {
