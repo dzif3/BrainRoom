@@ -89,7 +89,7 @@
         android:layout_marginLeft="22.5dp"
         android:layout_marginTop="2dp"
         android:layout_width="350dp"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="left"
         android:orientation="vertical"
         android:padding="10dp">
@@ -271,13 +271,13 @@
                     android:layout_height="70dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="1dp"
-                    android:background="@drawable/ekonomi_button"/>
+                    android:background="@drawable/bindo_buttton"/>
 
                 <TextView
                     android:id="@+id/text_ekonomi"
                     android:layout_width="wrap_content"
                     android:layout_height="25dp"
-                    android:text="Ekonomi"
+                    android:text="B.indo"
                     android:layout_marginTop="5dp"
                     android:textColor="@color/gray"
                     android:layout_marginLeft="2dp"
@@ -296,7 +296,7 @@
                     android:layout_height="70dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="1dp"
-                    android:background="@drawable/more_button"/>
+                    android:background="@drawable/mtk_button"/>
 
                 <TextView
                     android:id="@+id/text_more"

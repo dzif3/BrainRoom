@@ -102,7 +102,9 @@
                     android:hint="Enter password"
                     android:inputType="textPersonName"
                     app:endIconMode="clear_text"
-                    android:layout_marginTop="22dp">
+                    android:layout_marginTop="22dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="21">
 
 
                     <com.google.android.material.textfield.TextInputEditText
@@ -115,15 +117,14 @@
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                     android:layout_width="311dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="8dp"
                     android:hint="Repeat password">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/repeatpassword"
                         android:layout_width="300dp"
                         android:layout_height="45dp"
-                        android:imeOptions="actionNext"
-                        android:maxLength="21" />
+                        android:imeOptions="actionNext" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 

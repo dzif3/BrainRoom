@@ -139,8 +139,7 @@
                 android:id="@+id/btn_sign_in"
                 android:layout_width="300dp"
                 android:layout_height="56dp"
-
-                android:background="@drawable/signin"
+                android:background="@drawable/sign_in_border"
                 android:textAllCaps="false"
                 android:textStyle="normal" />
 
