@@ -229,7 +229,7 @@
                     android:id="@+id/text_sejarah"
                     android:layout_width="wrap_content"
                     android:layout_height="25dp"
-                    android:text="Fisika"
+                    android:text="Sejarah"
                     android:layout_marginTop="2dp"
                     android:textColor="@color/gray"
                     android:textSize="20sp"/>

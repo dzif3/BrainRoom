@@ -20,7 +20,7 @@ public class LogIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
-        TextView signup = findViewById(R.id.signup);
+        ImageView signup = findViewById(R.id.signup);
         Button login = findViewById(R.id.btn_login);
 
         login.setOnClickListener(new View.OnClickListener() {

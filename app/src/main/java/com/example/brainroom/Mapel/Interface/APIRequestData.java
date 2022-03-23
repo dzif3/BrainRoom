@@ -14,4 +14,13 @@ public interface APIRequestData {
 
     @GET("dataing.php")
     Call<ResponseModel> ardRetrieveDataing();
+
+    @GET("datakimia.php")
+    Call<ResponseModel> ardRetrieveDatakim();
+
+    @GET("databiologi.php")
+    Call<ResponseModel> ardRetrieveDatabio();
+
+    @GET("datafisika.php")
+    Call<ResponseModel> ardRetrieveDatafis();
 }

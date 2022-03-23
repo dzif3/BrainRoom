@@ -21,8 +21,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class Biologi extends AppCompatActivity {
-
+public class Kimia extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter rvadapter;
     private RecyclerView.LayoutManager rvlayma;
@@ -31,7 +30,7 @@ public class Biologi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_biologi);
+        setContentView(R.layout.activity_kimia);
 
         recyclerView = findViewById(R.id.rv_data);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
@@ -42,7 +41,7 @@ public class Biologi extends AppCompatActivity {
 
     private void mapelData() {
         APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
-        Call<ResponseModel> tampilData = ardData.ardRetrieveDatabio();
+        Call<ResponseModel> tampilData = ardData.ardRetrieveDatakim();
 
         tampilData.enqueue(new Callback<ResponseModel>() {
             @Override
@@ -52,7 +51,7 @@ public class Biologi extends AppCompatActivity {
 
                 listMapel = response.body().getData();
 
-                rvadapter = new AdapterData(Biologi.this, listMapel);
+                rvadapter = new AdapterData(Kimia.this, listMapel);
                 recyclerView.setAdapter(rvadapter);
                 rvadapter.notifyDataSetChanged();
             }
@@ -60,7 +59,7 @@ public class Biologi extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<ResponseModel> call, Throwable t) {
-                Toast.makeText(Biologi.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
+                Toast.makeText(Kimia.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
     }

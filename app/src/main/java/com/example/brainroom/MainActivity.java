@@ -13,6 +13,9 @@ import com.example.brainroom.Kuis.KuisInggris;
 import com.example.brainroom.Kuis.KuisMatematika;
 import com.example.brainroom.Mapel.activity.BahasaIndonesia;
 import com.example.brainroom.Mapel.activity.BahasaInggris;
+import com.example.brainroom.Mapel.activity.Biologi;
+import com.example.brainroom.Mapel.activity.Fisika;
+import com.example.brainroom.Mapel.activity.Kimia;
 import com.example.brainroom.Mapel.activity.Matematika;
 import com.example.brainroom.R;
 import com.example.brainroom.profile.EditProfile;
@@ -38,7 +41,28 @@ public class MainActivity extends AppCompatActivity {
         ImageView mtka = findViewById(R.id.button_matematika);
         ImageView indo = findViewById(R.id.button_indonesia);
         ImageView eng = findViewById(R.id.button_english);
+        ImageView kim = findViewById(R.id.button_kimia);
+        ImageView fis = findViewById(R.id.button_fisika);
+        ImageView bio = findViewById(R.id.button_biologi);
 
+        kim.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Kimia.class);
+                startActivity(intent);
+            }
+        });
+        fis.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Fisika.class);
+                startActivity(intent);
+            }
+        });
+        bio.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Biologi.class);
+                startActivity(intent);
+            }
+        });
         mtka.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Matematika.class);
