@@ -88,7 +88,7 @@
         android:text="Next"
         android:textColor="#ffff"
         android:textSize="15sp"
-        android:textStyle="normal"></Button>
+        android:textStyle="normal"/>
   </LinearLayout>
 
   <LinearLayout
@@ -98,6 +98,7 @@
       android:gravity="top|center">
 
     <TextView
+        android:id="@+id/forgotpw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
@@ -110,6 +111,7 @@
         android:orientation="horizontal"
         android:gravity="center">
       <TextView
+          android:id="@+id/signup"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:padding="20dp"

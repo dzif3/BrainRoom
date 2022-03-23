@@ -12,7 +12,13 @@ package="com.example.brainroom">
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
     android:usesCleartextTraffic="true"
-    android:theme="@style/Theme.BrainRoom">
+    android:theme="@style/Theme.BrainRoom"
+    tools:ignore="ExtraText,UnusedAttribute">
+    //profile
+    <activity
+        android:name=".profile.EditProfile"
+        android:exported="false" />
+    //kuis
     <activity
         android:name=".Kuis.HasilKuis"
         android:exported="false" />
@@ -26,7 +32,7 @@ package="com.example.brainroom">
         android:name=".Kuis.KuisFisika"
         android:exported="false" />
 
-    //pisah//
+    //mapel//
     <activity
         android:name=".Mapel.activity.Matematika"
         android:exported="false" />
@@ -40,20 +46,30 @@ package="com.example.brainroom">
     <activity android:name=".Mapel.activity.BahasaIndonesia"
         android:exported="false"/>
 
+    //signin up
+    <activity
+        android:name=".Login.SignUp"
+        android:exported="false" />
+    <activity
+        android:name=".Login.SignUpStep2"
+        android:exported="false" />
+    <activity
+        android:name=".Login.SignUpStep3"
+        android:exported="false" />
     <activity
         android:name=".Login.LogIn"
         android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
     </activity>
 
     <activity
         android:name=".MainActivity"
         android:exported="true"
         tools:ignore="DuplicateActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
     </activity>
 
 
