@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".Mapel.activity.Biologi">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UnknownId"
+        tools:listitem="@layout/row_card" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

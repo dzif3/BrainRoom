@@ -28,15 +28,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Profile
-        ImageView setting = (ImageView) findViewById(R.id.buttonsetting);
+        ImageView setting = findViewById(R.id.buttonsetting);
         setting.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, EditProfile.class);
                 startActivity(intent);
             }
         });
-        //
-
         //mapel
         ImageView mtka = findViewById(R.id.button_matematika);
         ImageView indo = findViewById(R.id.button_indonesia);

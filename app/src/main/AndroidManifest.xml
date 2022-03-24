@@ -33,36 +33,58 @@
         <activity
             android:name=".Kuis.KuisFisika"
             android:exported="false" />
+
+        //mapel
         <activity
             android:name=".Mapel.activity.Matematika"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
         <activity
             android:name=".Mapel.activity.Fisika"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
         <activity
             android:name=".Mapel.activity.BahasaInggris"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
         <activity
             android:name=".Mapel.activity.BahasaIndonesia"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
         <activity
-            android:name=".Login.SignUp"
-            android:exported="false" />
+            android:name=".Mapel.activity.Kimia"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
         <activity
-            android:name=".Login.SignUpStep2"
+            android:name=".Mapel.activity.Biologi"
             android:exported="false" />
-        <activity
-            android:name=".Login.SignUpStep3"
-            android:exported="false" />
-        <activity
-            android:name=".Login.LogIn"
-            android:exported="true" >
+
+        //login
+        <activity android:name=".splashscree.SplashScreen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Login.SignUp"
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
+        <activity
+            android:name=".Login.SignUpStep2"
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
+        <activity
+            android:name=".Login.SignUpStep3"
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
+        <activity
+            android:name=".Login.LogIn"
+            android:exported="true"
+            tools:ignore="DuplicateActivity"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
