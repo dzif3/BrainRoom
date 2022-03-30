@@ -15,6 +15,7 @@ import com.example.brainroom.Mapel.activity.BahasaIndonesia;
 import com.example.brainroom.Mapel.activity.BahasaInggris;
 import com.example.brainroom.Mapel.activity.Biologi;
 import com.example.brainroom.Mapel.activity.Fisika;
+import com.example.brainroom.Mapel.activity.IPS;
 import com.example.brainroom.Mapel.activity.Kimia;
 import com.example.brainroom.Mapel.activity.Matematika;
 import com.example.brainroom.R;
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView kim = findViewById(R.id.button_kimia);
         ImageView fis = findViewById(R.id.button_fisika);
         ImageView bio = findViewById(R.id.button_biologi);
+        ImageView ips = findViewById(R.id.button_IPS);
 
         kim.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -76,6 +78,12 @@ public class MainActivity extends AppCompatActivity {
         eng.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, BahasaInggris.class);
+                startActivity(intent);
+            }
+        });
+        eng.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, IPS.class);
                 startActivity(intent);
             }
         });

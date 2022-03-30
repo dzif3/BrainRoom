@@ -23,4 +23,7 @@ public interface APIRequestData {
 
     @GET("datafisika.php")
     Call<ResponseModel> ardRetrieveDatafis();
+
+    @GET("dataips.php")
+    Call<ResponseModel> ardRetrieveDataips();
 }
