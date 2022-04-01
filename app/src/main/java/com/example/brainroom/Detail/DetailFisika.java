@@ -31,9 +31,9 @@ public class DetailFisika extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_indo);
+        setContentView(R.layout.activity_detail_fisika);
 
-        recyclerView = findViewById(R.id.rv_detail);
+        recyclerView = findViewById(R.id.rv_detail_fis);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
@@ -42,7 +42,7 @@ public class DetailFisika extends AppCompatActivity {
 
     private void mapelData() {
         APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
-        Call<ResponseModel> tampilData = ardData.ardRetrieveDataindo();
+        Call<ResponseModel> tampilData = ardData.ardRetrieveDatafis();
 
         tampilData.enqueue(new Callback<ResponseModel>() {
             @Override

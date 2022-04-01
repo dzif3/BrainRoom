@@ -18,8 +18,13 @@
         <entry key="app/src/main/res/layout/activity_bahasa_indonesia.xml" value="0.17527173913043478" />
         <entry key="app/src/main/res/layout/activity_bahasa_inggris.xml" value="0.17527173913043478" />
         <entry key="app/src/main/res/layout/activity_biologi.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_detail_biologi.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_detail_fisika.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_detail_indo.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_detail_inggris.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_detail_ips.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_detail_kimia.xml" value="0.23897707231040563" />
+        <entry key="app/src/main/res/layout/activity_detail_mtk.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_fisika.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_hasil_kuis.xml" value="0.24664370771767435" />
         <entry key="app/src/main/res/layout/activity_hasil_kuis1.xml" value="0.2100877192982456" />
@@ -33,6 +38,7 @@
         <entry key="app/src/main/res/layout/activity_kuis_matematika.xml" value="0.24947916666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19191406455505572" />
         <entry key="app/src/main/res/layout/activity_matematika.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_sejarah.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.2221685791015625" />
         <entry key="app/src/main/res/layout/add_profile.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/edit_profile.xml" value="0.2100402832031248" />

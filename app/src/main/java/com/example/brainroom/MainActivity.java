@@ -81,12 +81,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        eng.setOnClickListener(new View.OnClickListener() {
+        ips.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, IPS.class);
                 startActivity(intent);
             }
         });
+
 
         //kuis
         ImageView kuis = findViewById(R.id.kuismtk);

@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.brainroom.Detail.DetailIndo;
 import com.example.brainroom.Detail.DetailKimia;
+import com.example.brainroom.Detail.DetailMtk;
 import com.example.brainroom.Mapel.Model.DataModel;
 import com.example.brainroom.R;
 

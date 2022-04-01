@@ -7,7 +7,7 @@
     tools:context=".Mapel.activity.Biologi">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_data"
+        android:id="@+id/rv_data_bio"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="UnknownId"

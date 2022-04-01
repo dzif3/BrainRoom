@@ -33,7 +33,7 @@ public class Matematika extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matematika);
 
-        recyclerView = findViewById(R.id.rv_data);
+        recyclerView = findViewById(R.id.rv_data_mtk);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();

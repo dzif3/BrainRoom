@@ -33,7 +33,7 @@ public class DetailIndo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_indo);
 
-        recyclerView = findViewById(R.id.rv_detail);
+        recyclerView = findViewById(R.id.rv_detail_ind);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();

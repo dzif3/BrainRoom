@@ -9,12 +9,13 @@
     android:padding="10dp">
 
 
-
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_detail_mtk"
+        android:id="@+id/rv_detail_biologi"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="UnknownId"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="-346dp"
         tools:listitem="@layout/row_detail" />
 
 

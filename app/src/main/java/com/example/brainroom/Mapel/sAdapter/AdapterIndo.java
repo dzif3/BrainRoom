@@ -2,14 +2,18 @@ package com.example.brainroom.Mapel.sAdapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 import com.example.brainroom.Detail.DetailIndo;
 import com.example.brainroom.Mapel.Model.DataModel;
 import com.example.brainroom.R;
@@ -58,6 +62,7 @@ public class AdapterIndo extends RecyclerView.Adapter<AdapterIndo.HolderData> {
 
     public class HolderData extends RecyclerView.ViewHolder {
         TextView tvid, tvjudul, tvsemester;
+
 
         public HolderData(@NonNull View itemView) {
             super(itemView);

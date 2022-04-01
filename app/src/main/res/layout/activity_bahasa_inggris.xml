@@ -8,7 +8,7 @@
     tools:context=".Mapel.activity.BahasaInggris">
 
   <androidx.recyclerview.widget.RecyclerView
-      android:id="@+id/rv_data"
+      android:id="@+id/rv_data_ing"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       tools:ignore="UnknownId"

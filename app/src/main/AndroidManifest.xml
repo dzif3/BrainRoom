@@ -18,10 +18,33 @@
         tools:ignore="ExtraText,UnusedAttribute">
         <activity
             android:name=".Detail.DetailMtk"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Detail.DetailIndo"
-            android:exported="false" />
+            android:exported="false"
+            />
+        <activity
+            android:name=".Detail.DetailKimia"
+            android:exported="false"
+            />
+        <activity
+            android:name=".Detail.DetailIps"
+            android:exported="false"
+            />
+        <activity
+            android:name=".Detail.Detailinggris"
+            android:exported="false"
+            />
+        <activity
+            android:name=".Detail.DetailFisika"
+            android:exported="false"
+            />
+        <activity
+            android:name=".Detail.DetailBiologi"
+            android:exported="false"
+            />
+        //
         <activity
             android:name=".Mapel.activity.Sejarah"
             android:exported="false" />
@@ -43,6 +66,8 @@
         <activity
             android:name=".Kuis.KuisFisika"
             android:exported="false" />
+
+        //mapel
         <activity
             android:name=".Mapel.activity.Matematika"
             android:exported="false"
@@ -65,7 +90,18 @@
             tools:ignore="DuplicateActivity" />
         <activity
             android:name=".Mapel.activity.Biologi"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
+        <activity
+            android:name=".Mapel.activity.IPS"
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
+        <activity
+            android:name=".Mapel.activity.Sejarah"
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
+
+
         <activity
             android:name=".splashscree.SplashScreen"
             android:exported="true">

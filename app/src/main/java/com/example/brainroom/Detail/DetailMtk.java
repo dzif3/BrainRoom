@@ -33,7 +33,7 @@ public class DetailMtk extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_mtk);
 
-        recyclerView = findViewById(R.id.rv_detail);
+        recyclerView = findViewById(R.id.rv_detail_mtk);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
@@ -42,7 +42,7 @@ public class DetailMtk extends AppCompatActivity {
 
     private void mapelData() {
         APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
-        Call<ResponseModel> tampilData = ardData.ardRetrieveDataindo();
+        Call<ResponseModel> tampilData = ardData.ardRetrieveDatamtk();
 
         tampilData.enqueue(new Callback<ResponseModel>() {
             @Override

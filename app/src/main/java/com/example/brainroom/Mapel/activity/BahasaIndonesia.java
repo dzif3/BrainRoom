@@ -32,7 +32,7 @@ public class BahasaIndonesia extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bahasa_indonesia);
 
-        recyclerView = findViewById(R.id.rv_data);
+        recyclerView = findViewById(R.id.rv_data_indo);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
