@@ -4,17 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.brainroom.MainActivity;
 import com.example.brainroom.Mapel.Interface.APIRequestData;
 import com.example.brainroom.Mapel.Model.DataModel;
 import com.example.brainroom.Mapel.Model.ResponseModel;
-import com.example.brainroom.Mapel.sAdapter.AdapterData;
+import com.example.brainroom.Mapel.sAdapter.AdapterIndo;
 import com.example.brainroom.Mapel.server.RetroServer;
 import com.example.brainroom.R;
 
@@ -55,7 +51,7 @@ public class BahasaIndonesia extends AppCompatActivity {
 
                 listMapel = response.body().getData();
 
-                rvadapter = new AdapterData(BahasaIndonesia.this, listMapel);
+                rvadapter = new AdapterIndo(BahasaIndonesia.this, listMapel);
                 recyclerView.setAdapter(rvadapter);
                 rvadapter.notifyDataSetChanged();
             }

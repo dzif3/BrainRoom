@@ -1,4 +1,4 @@
-package com.example.brainroom.Mapel.activity;
+package com.example.brainroom.Detail;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -10,7 +10,7 @@ import android.widget.Toast;
 import com.example.brainroom.Mapel.Interface.APIRequestData;
 import com.example.brainroom.Mapel.Model.DataModel;
 import com.example.brainroom.Mapel.Model.ResponseModel;
-import com.example.brainroom.Mapel.sAdapter.AdapterFisika;
+import com.example.brainroom.Mapel.sAdapter.AdapterDetail;
 import com.example.brainroom.Mapel.server.RetroServer;
 import com.example.brainroom.R;
 
@@ -21,19 +21,19 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class Fisika extends AppCompatActivity {
-
+public class DetailIndo extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter rvadapter;
     private RecyclerView.LayoutManager rvlayma;
     private List<DataModel> listMapel = new ArrayList<>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fisika);
+        setContentView(R.layout.activity_detail_indo);
 
-        recyclerView = findViewById(R.id.rv_data);
+        recyclerView = findViewById(R.id.rv_detail);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
@@ -42,7 +42,7 @@ public class Fisika extends AppCompatActivity {
 
     private void mapelData() {
         APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
-        Call<ResponseModel> tampilData = ardData.ardRetrieveDatafis();
+        Call<ResponseModel> tampilData = ardData.ardRetrieveDataindo();
 
         tampilData.enqueue(new Callback<ResponseModel>() {
             @Override
@@ -52,16 +52,16 @@ public class Fisika extends AppCompatActivity {
 
                 listMapel = response.body().getData();
 
-                rvadapter = new AdapterFisika(Fisika.this, listMapel);
+                rvadapter = new AdapterDetail(DetailIndo.this, listMapel);
                 recyclerView.setAdapter(rvadapter);
                 rvadapter.notifyDataSetChanged();
             }
 
-
             @Override
             public void onFailure(Call<ResponseModel> call, Throwable t) {
-                Toast.makeText(Fisika.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
+                Toast.makeText(DetailIndo.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
     }
 }
+

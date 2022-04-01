@@ -18,6 +18,8 @@
         <entry key="app/src/main/res/layout/activity_bahasa_indonesia.xml" value="0.17527173913043478" />
         <entry key="app/src/main/res/layout/activity_bahasa_inggris.xml" value="0.17527173913043478" />
         <entry key="app/src/main/res/layout/activity_biologi.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_detail_indo.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_detail_inggris.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_fisika.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_hasil_kuis.xml" value="0.24664370771767435" />
         <entry key="app/src/main/res/layout/activity_hasil_kuis1.xml" value="0.2100877192982456" />
@@ -43,6 +45,7 @@
         <entry key="app/src/main/res/layout/profile.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/row.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/row_card.xml" value="0.2100877192982456" />
+        <entry key="app/src/main/res/layout/row_detail.xml" value="0.13728470111448834" />
         <entry key="app/src/main/res/layout/secure_account.xml" value="0.36656951904296886" />
         <entry key="app/src/main/res/layout/sign_in_activity.xml" value="0.16631038905515177" />
         <entry key="app/src/main/res/layout/sign_up.xml" value="0.22101745605468748" />

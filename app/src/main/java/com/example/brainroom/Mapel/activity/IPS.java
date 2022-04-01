@@ -10,7 +10,7 @@ import android.widget.Toast;
 import com.example.brainroom.Mapel.Interface.APIRequestData;
 import com.example.brainroom.Mapel.Model.DataModel;
 import com.example.brainroom.Mapel.Model.ResponseModel;
-import com.example.brainroom.Mapel.sAdapter.AdapterData;
+import com.example.brainroom.Mapel.sAdapter.AdapterIps;
 import com.example.brainroom.Mapel.server.RetroServer;
 import com.example.brainroom.R;
 
@@ -51,7 +51,7 @@ public class IPS extends AppCompatActivity {
 
                 listMapel = response.body().getData();
 
-                rvadapter = new AdapterData(IPS.this, listMapel);
+                rvadapter = new AdapterIps(IPS.this, listMapel);
                 recyclerView.setAdapter(rvadapter);
                 rvadapter.notifyDataSetChanged();
             }
