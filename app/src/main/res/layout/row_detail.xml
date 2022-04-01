@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Detail.DetailIndo"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvidd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/subjudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="subjudul"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="isi"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#0C0C0C"/>
+
+
+        <TextView
+            android:id="@+id/subjudul1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="subjudul1"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/isi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="isi1"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#0C0C0C"/>
+
+        <TextView
+            android:id="@+id/subjudul2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="subjudul2"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/isi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="isi2"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#0C0C0C"/>
+
+        <TextView
+            android:id="@+id/subjudul3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="subjudul3"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/isi3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="isi3"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#0C0C0C"/>
+
+        <TextView
+            android:id="@+id/subjudul4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="subjudul4"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/isi4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="isi4"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#0C0C0C"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

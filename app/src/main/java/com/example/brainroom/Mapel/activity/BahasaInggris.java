@@ -1,15 +1,66 @@
 package com.example.brainroom.Mapel.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import android.os.Bundle;
+import android.widget.Toast;
+
+import com.example.brainroom.Mapel.Interface.APIRequestData;
+import com.example.brainroom.Mapel.Model.DataModel;
+import com.example.brainroom.Mapel.Model.ResponseModel;
+import com.example.brainroom.Mapel.sAdapter.AdapterInggris;
+import com.example.brainroom.Mapel.server.RetroServer;
 import com.example.brainroom.R;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class BahasaInggris extends AppCompatActivity {
+
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter rvadapter;
+    private RecyclerView.LayoutManager rvlayma;
+    private List<DataModel> listMapel = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bahasa_inggris);
+
+        recyclerView = findViewById(R.id.rv_data_ing);
+        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
+        recyclerView.setLayoutManager(rvlayma);
+        mapelData();
+
+    }
+
+    private void mapelData() {
+        APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
+        Call<ResponseModel> tampilData = ardData.ardRetrieveDataing();
+
+        tampilData.enqueue(new Callback<ResponseModel>() {
+            @Override
+            public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
+                int kode = response.body().getKode();
+                String pesan = response.body().getPesan();
+
+                listMapel = response.body().getData();
+
+                rvadapter = new AdapterInggris(BahasaInggris.this, listMapel);
+                recyclerView.setAdapter(rvadapter);
+                rvadapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onFailure(Call<ResponseModel> call, Throwable t) {
+                Toast.makeText(BahasaInggris.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
+            }
+        });
     }
 }

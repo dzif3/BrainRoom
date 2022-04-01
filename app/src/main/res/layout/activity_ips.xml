@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Mapel.activity.IPS">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_data_ips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UnknownId"
+        tools:listitem="@layout/row_card" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

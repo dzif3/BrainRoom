@@ -3,144 +3,166 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="10dp"
     android:background="@color/background">
 
-<LinearLayout
-    android:layout_width="391dp"
-    android:layout_height="825dp"
-
->
-
     <LinearLayout
         android:layout_width="391dp"
         android:layout_height="825dp"
-        android:gravity="center"
-        android:orientation="vertical">
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginLeft="34dp"
-            android:layout_marginRight="52dp"
-            android:text="Now, let’s secure your account."
-            android:textColor="@color/black"
-            android:textSize="35dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginLeft="34dp"
-            android:layout_marginTop="19dp"
-            android:layout_marginRight="52dp"
-            android:text="STEP 2 OF 3"
-            android:textColor="@color/gray"
-            android:textSize="21dp"
-            android:textStyle="normal" />
-
-        <TextView
-            android:layout_width="293dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginLeft="34dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="52dp"
-            android:text="Enter your email so we can send you a confirmation code."
-            android:textColor="@color/gray"
-            android:textSize="19sp"
-            android:textStyle="normal" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_name"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
-            android:layout_width="311dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="21dp"
-            android:hint=" Email"
-            android:inputType="textEmailAddress"
-            app:endIconMode="clear_text"
-            app:helperText="Required*"
-            app:helperTextTextColor="@color/biru"
-            app:startIconDrawable="@drawable/ic_baseline_email_24">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/enteremail"
-                android:layout_width="300dp"
-                android:layout_height="45dp" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <TextView
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginLeft="34dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="52dp"
-            android:text="please create powerful password to protect your account"
-            android:textColor="@color/gray"
-            android:textSize="19sp"
-            android:textStyle="normal" />
+        >
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="171dp"
-            android:gravity="top|center"
+            android:layout_width="391dp"
+            android:layout_height="825dp"
+            android:gravity="center"
             android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="52dp"
+                android:text="Now, let’s secure your account."
+                android:textColor="@color/black"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginRight="52dp"
+                android:text="STEP 2 OF 3"
+                android:textColor="@color/gray"
+                android:textSize="21dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="293dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="52dp"
+                android:text="Enter your email so we can send you a confirmation code."
+                android:textColor="@color/gray"
+                android:textSize="19sp"
+                android:textStyle="normal" />
+
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/Password"
+                android:id="@+id/til_name"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:layout_width="311dp"
                 android:layout_height="wrap_content"
-                android:hint="Enter password"
-                android:inputType="textPersonName"
+                android:layout_marginTop="21dp"
+                android:hint=" Email"
+                android:inputType="textEmailAddress"
                 app:endIconMode="clear_text"
-                android:layout_marginTop="22dp">
-
+                app:helperText="Required*"
+                app:helperTextTextColor="@color/biru"
+                app:startIconDrawable="@drawable/ic_baseline_email_24">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/enteremail"
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
-                android:layout_width="311dp"
+            <TextView
+                android:layout_width="355dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="34dp"
                 android:layout_marginTop="15dp"
-                android:hint="Repeat password">
+                android:layout_marginRight="52dp"
+                android:text="please create powerful password to protect your account"
+                android:textColor="@color/gray"
+                android:textSize="19sp"
+                android:textStyle="normal" />
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/repeatpassword"
-                    android:layout_width="300dp"
-                    android:layout_height="45dp"
-                    android:imeOptions="actionNext"
-                    android:maxLength="21" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:gravity="top|center"
+                android:orientation="vertical">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/Password"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="311dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter password"
+                    android:inputType="textPersonName"
+                    app:endIconMode="clear_text"
+                    android:layout_marginTop="22dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="21">
 
-            </com.google.android.material.textfield.TextInputLayout>
 
-</LinearLayout>
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="300dp"
+                        android:layout_height="45dp" />
 
-        <Button
-            android:id="@+id/student"
-            android:layout_width="300dp"
-            android:layout_height="56dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_corner"
-            android:radius="41dp"
-            android:text="sign in"
-            android:textAllCaps="false"
-            android:textColor="#ffff"
-            android:textSize="15sp"
-            android:textStyle="normal" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="311dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:hint="Repeat password">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/repeatpassword"
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:imeOptions="actionNext" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/backsignup2"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:radius="41dp"
+                    android:text="Back"
+                    android:textAllCaps="false"
+                    android:textColor="#ffff"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/nextsignup2"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:radius="41dp"
+                    android:text="Next"
+                    android:layout_marginLeft="65dp"
+                    android:textAllCaps="false"
+                    android:textColor="#ffff"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

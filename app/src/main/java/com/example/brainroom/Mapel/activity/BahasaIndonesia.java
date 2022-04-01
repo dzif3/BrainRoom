@@ -7,11 +7,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.brainroom.Mapel.Interface.APIRequestIndo;
-import com.example.brainroom.Mapel.Interface.APIRequestMtk;
+import com.example.brainroom.Mapel.Interface.APIRequestData;
 import com.example.brainroom.Mapel.Model.DataModel;
 import com.example.brainroom.Mapel.Model.ResponseModel;
-import com.example.brainroom.Mapel.sAdapter.AdapterData;
+import com.example.brainroom.Mapel.sAdapter.AdapterIndo;
 import com.example.brainroom.Mapel.server.RetroServer;
 import com.example.brainroom.R;
 
@@ -33,8 +32,7 @@ public class BahasaIndonesia extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bahasa_indonesia);
 
-
-        recyclerView = findViewById(R.id.rv_data);
+        recyclerView = findViewById(R.id.rv_data_indo);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
@@ -42,7 +40,7 @@ public class BahasaIndonesia extends AppCompatActivity {
     }
 
     private void mapelData() {
-        APIRequestIndo ardData = RetroServer.konekRetrofit().create(APIRequestIndo.class);
+        APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
         Call<ResponseModel> tampilData = ardData.ardRetrieveDataindo();
 
         tampilData.enqueue(new Callback<ResponseModel>() {
@@ -53,7 +51,7 @@ public class BahasaIndonesia extends AppCompatActivity {
 
                 listMapel = response.body().getData();
 
-                rvadapter = new AdapterData(BahasaIndonesia.this, listMapel);
+                rvadapter = new AdapterIndo(BahasaIndonesia.this, listMapel);
                 recyclerView.setAdapter(rvadapter);
                 rvadapter.notifyDataSetChanged();
             }

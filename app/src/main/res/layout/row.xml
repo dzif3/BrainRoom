@@ -11,6 +11,12 @@
         android:orientation="vertical"
         android:layout_marginTop="12dp">
 
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
         <androidx.cardview.widget.CardView
             android:layout_width="350dp"
             android:layout_height="190dp"
@@ -97,6 +103,7 @@
                         android:textColor="@color/black"/>
 
                     <ImageView
+                        android:id="@+id/start"
                         android:layout_width="100dp"
                         android:layout_height="29dp"
                         android:background="@drawable/start_tugas_button"

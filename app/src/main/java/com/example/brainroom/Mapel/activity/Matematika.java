@@ -7,10 +7,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.brainroom.Mapel.Interface.APIRequestMtk;
+import com.example.brainroom.Mapel.Interface.APIRequestData;
 import com.example.brainroom.Mapel.Model.DataModel;
 import com.example.brainroom.Mapel.Model.ResponseModel;
-import com.example.brainroom.Mapel.sAdapter.AdapterData;
+import com.example.brainroom.Mapel.sAdapter.AdapterMtk;
 import com.example.brainroom.Mapel.server.RetroServer;
 import com.example.brainroom.R;
 
@@ -22,6 +22,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class Matematika extends AppCompatActivity {
+
     private RecyclerView recyclerView;
     private RecyclerView.Adapter rvadapter;
     private RecyclerView.LayoutManager rvlayma;
@@ -32,7 +33,7 @@ public class Matematika extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matematika);
 
-        recyclerView = findViewById(R.id.rv_data);
+        recyclerView = findViewById(R.id.rv_data_mtk);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
@@ -40,7 +41,7 @@ public class Matematika extends AppCompatActivity {
     }
 
     private void mapelData() {
-        APIRequestMtk ardData = RetroServer.konekRetrofit().create(APIRequestMtk.class);
+        APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
         Call<ResponseModel> tampilData = ardData.ardRetrieveDatamtk();
 
         tampilData.enqueue(new Callback<ResponseModel>() {
@@ -51,10 +52,11 @@ public class Matematika extends AppCompatActivity {
 
                 listMapel = response.body().getData();
 
-                rvadapter = new AdapterData(Matematika.this, listMapel);
+                rvadapter = new AdapterMtk(Matematika.this, listMapel);
                 recyclerView.setAdapter(rvadapter);
                 rvadapter.notifyDataSetChanged();
             }
+
 
             @Override
             public void onFailure(Call<ResponseModel> call, Throwable t) {

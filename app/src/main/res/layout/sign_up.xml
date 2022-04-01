@@ -80,7 +80,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/student"
+                android:id="@+id/signupstudent"
                 android:layout_width="140dp"
                 android:layout_height="56dp"
                 android:layout_marginTop="10dp"
@@ -93,7 +93,7 @@
                 android:textStyle="normal" />
 
             <Button
-                android:id="@+id/parent"
+                android:id="@+id/signupparent"
                 android:layout_width="140dp"
                 android:layout_height="56dp"
                 android:layout_marginTop="10dp"
@@ -139,11 +139,10 @@
                 android:id="@+id/btn_sign_in"
                 android:layout_width="300dp"
                 android:layout_height="56dp"
-
-                android:background="@drawable/signin"
+                android:background="@drawable/sign_in_border"
                 android:textAllCaps="false"
                 android:textStyle="normal" />
-            android:onClick=""
+
 
         </LinearLayout>
     </LinearLayout>
