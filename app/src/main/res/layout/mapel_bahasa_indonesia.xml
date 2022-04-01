@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Detail.DetailMtk">
+    tools:context=".Mapel.activity.BahasaIndonesia">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_data_indo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UnknownId"
+        tools:listitem="@layout/row_card" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

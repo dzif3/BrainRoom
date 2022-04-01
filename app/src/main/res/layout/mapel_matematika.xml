@@ -5,10 +5,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Mapel.activity.Fisika">
+    tools:context=".Mapel.activity.Matematika">
 
   <androidx.recyclerview.widget.RecyclerView
-      android:id="@+id/rv_data"
+      android:id="@+id/rv_data_mtk"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       tools:ignore="UnknownId"

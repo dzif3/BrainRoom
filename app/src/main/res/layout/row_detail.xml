@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".Detail.DetailIndo"
+    tools:context=".Mapel.Detail.DetailIndo"
     android:orientation="horizontal">
 
     <LinearLayout
@@ -108,6 +108,8 @@
             android:paddingTop="10dp"
             android:textSize="15dp"
             android:textColor="#0C0C0C"/>
+
+
     </LinearLayout>
 
 </ScrollView>

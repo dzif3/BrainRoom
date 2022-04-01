@@ -17,10 +17,31 @@
         android:usesCleartextTraffic="true"
         tools:ignore="ExtraText,UnusedAttribute">
         <activity
-            android:name=".Detail.DetailMtk"
+            android:name=".kisisoal.Hasil.HasilMatematika"
             android:exported="false" />
         <activity
-            android:name=".Detail.DetailIndo"
+            android:name=".kisisoal.soal.SoalMtkSatu"
+            android:exported="false" />
+        <activity
+            android:name=".Mapel.Detail.DetailMtk"
+            android:exported="false" />
+        <activity
+            android:name=".Mapel.Detail.DetailIndo"
+            android:exported="false" />
+        <activity
+            android:name=".Mapel.Detail.DetailKimia"
+            android:exported="false" />
+        <activity
+            android:name=".Mapel.Detail.DetailIps"
+            android:exported="false" />
+        <activity
+            android:name=".Mapel.Detail.Detailinggris"
+            android:exported="false" />
+        <activity
+            android:name=".Mapel.Detail.DetailFisika"
+            android:exported="false" />
+        <activity
+            android:name=".Mapel.Detail.DetailBiologi"
             android:exported="false" />
         <activity
             android:name=".Mapel.activity.Sejarah"
@@ -65,7 +86,50 @@
             tools:ignore="DuplicateActivity" />
         <activity
             android:name=".Mapel.activity.Biologi"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".Mapel.activity.IPS"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".Mapel.activity.Sejarah"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+
+
+        <activity
+            android:name=".kisisoal.KisBahasaIndo"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".kisisoal.KisEnglish"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".kisisoal.KisFisika"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".kisisoal.KisMTK"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+
+
+        <activity
+            android:name=".kisisoal.soal.SoalMtkSatu"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".kisisoal.Hasil.HasilMatematika"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".kisisoal.KisMTK"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+
+
         <activity
             android:name=".splashscree.SplashScreen"
             android:exported="true">

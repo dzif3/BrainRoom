@@ -13,7 +13,7 @@ public class SignUpStep2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.secure_account);
+        setContentView(R.layout.lo_secure_account);
 
         Button backsignup2 = findViewById(R.id.backsignup2);
         Button nextsignup2 = findViewById(R.id.nextsignup2);

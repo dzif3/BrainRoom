@@ -31,9 +31,9 @@ public class Fisika extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fisika);
+        setContentView(R.layout.mapel_fisika);
 
-        recyclerView = findViewById(R.id.rv_data);
+        recyclerView = findViewById(R.id.rv_data_fis);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();

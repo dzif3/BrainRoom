@@ -14,7 +14,7 @@ public class SignUpStep3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.add_profile);
+        setContentView(R.layout.lo_dd_profile);
 
         Button finish = findViewById(R.id.finishsignupstep3);
         finish.setOnClickListener(new View.OnClickListener() {

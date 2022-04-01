@@ -10,8 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.brainroom.Detail.DetailIndo;
-import com.example.brainroom.Detail.DetailIps;
+import com.example.brainroom.Mapel.Detail.DetailIps;
 import com.example.brainroom.Mapel.Model.DataModel;
 import com.example.brainroom.R;
 

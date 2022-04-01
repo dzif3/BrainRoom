@@ -31,9 +31,9 @@ public class BahasaInggris extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bahasa_inggris);
+        setContentView(R.layout.mapel_bahasa_inggris);
 
-        recyclerView = findViewById(R.id.rv_data);
+        recyclerView = findViewById(R.id.rv_data_ing);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();

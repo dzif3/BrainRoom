@@ -1,4 +1,4 @@
-package com.example.brainroom.Detail;
+package com.example.brainroom.Mapel.Detail;
 
 import android.os.Bundle;
 import android.widget.Toast;
@@ -21,7 +21,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class DetailKimia extends AppCompatActivity {
+public class DetailBiologi extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter rvadapter;
     private RecyclerView.LayoutManager rvlayma;
@@ -31,9 +31,9 @@ public class DetailKimia extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_indo);
+        setContentView(R.layout.mapel_detail_biologi);
 
-        recyclerView = findViewById(R.id.rv_detail);
+        recyclerView = findViewById(R.id.rv_detail_biologi);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
@@ -42,7 +42,7 @@ public class DetailKimia extends AppCompatActivity {
 
     private void mapelData() {
         APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
-        Call<ResponseModel> tampilData = ardData.ardRetrieveDataindo();
+        Call<ResponseModel> tampilData = ardData.ardRetrieveDatabio();
 
         tampilData.enqueue(new Callback<ResponseModel>() {
             @Override
@@ -52,14 +52,14 @@ public class DetailKimia extends AppCompatActivity {
 
                 listMapel = response.body().getData();
 
-                rvadapter = new AdapterDetail(DetailKimia.this, listMapel);
+                rvadapter = new AdapterDetail(DetailBiologi.this, listMapel);
                 recyclerView.setAdapter(rvadapter);
                 rvadapter.notifyDataSetChanged();
             }
 
             @Override
             public void onFailure(Call<ResponseModel> call, Throwable t) {
-                Toast.makeText(DetailKimia.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
+                Toast.makeText(DetailBiologi.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
     }

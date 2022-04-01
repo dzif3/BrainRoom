@@ -1,11 +1,11 @@
-package com.example.brainroom.Detail;
-
-import android.os.Bundle;
-import android.widget.Toast;
+package com.example.brainroom.Mapel.Detail;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.os.Bundle;
+import android.widget.Toast;
 
 import com.example.brainroom.Mapel.Interface.APIRequestData;
 import com.example.brainroom.Mapel.Model.DataModel;
@@ -21,7 +21,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class DetailBiologi extends AppCompatActivity {
+public class DetailIndo extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter rvadapter;
     private RecyclerView.LayoutManager rvlayma;
@@ -31,9 +31,9 @@ public class DetailBiologi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_indo);
+        setContentView(R.layout.mapel_detail_indo);
 
-        recyclerView = findViewById(R.id.rv_detail);
+        recyclerView = findViewById(R.id.rv_detail_ind);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
@@ -52,14 +52,14 @@ public class DetailBiologi extends AppCompatActivity {
 
                 listMapel = response.body().getData();
 
-                rvadapter = new AdapterDetail(DetailBiologi.this, listMapel);
+                rvadapter = new AdapterDetail(DetailIndo.this, listMapel);
                 recyclerView.setAdapter(rvadapter);
                 rvadapter.notifyDataSetChanged();
             }
 
             @Override
             public void onFailure(Call<ResponseModel> call, Throwable t) {
-                Toast.makeText(DetailBiologi.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
+                Toast.makeText(DetailIndo.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
     }

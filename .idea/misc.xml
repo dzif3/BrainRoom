@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2611111111111111" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1855" />
         <entry key="app/src/main/res/drawable/buttonsignin.xml" value="0.1855" />
         <entry key="app/src/main/res/drawable/card_view_home.xml" value="0.169" />
@@ -18,8 +19,13 @@
         <entry key="app/src/main/res/layout/activity_bahasa_indonesia.xml" value="0.17527173913043478" />
         <entry key="app/src/main/res/layout/activity_bahasa_inggris.xml" value="0.17527173913043478" />
         <entry key="app/src/main/res/layout/activity_biologi.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_detail_biologi.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_detail_fisika.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_detail_indo.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_detail_inggris.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_detail_ips.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_detail_kimia.xml" value="0.23897707231040563" />
+        <entry key="app/src/main/res/layout/activity_detail_mtk.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_fisika.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_hasil_kuis.xml" value="0.24664370771767435" />
         <entry key="app/src/main/res/layout/activity_hasil_kuis1.xml" value="0.2100877192982456" />
@@ -33,15 +39,25 @@
         <entry key="app/src/main/res/layout/activity_kuis_matematika.xml" value="0.24947916666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19191406455505572" />
         <entry key="app/src/main/res/layout/activity_matematika.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_sejarah.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.2221685791015625" />
         <entry key="app/src/main/res/layout/add_profile.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/edit_profile.xml" value="0.2100402832031248" />
+        <entry key="app/src/main/res/layout/hasil_kuis.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/hasil_kuis2.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/home.xml" value="0.12638549804687496" />
         <entry key="app/src/main/res/layout/itulah.xml" value="0.19157608695652173" />
+        <entry key="app/src/main/res/layout/kis_bindo.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/kis_english.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/kis_fisika.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/kis_mtk.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/kisi_hasil_matematika.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/kuis_fisika.xml" value="0.3132827758789063" />
+        <entry key="app/src/main/res/layout/kuis_inggris.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/kuntul.xml" value="0.3072634038236952" />
         <entry key="app/src/main/res/layout/list_tugas.xml" value="0.25" />
         <entry key="app/src/main/res/layout/log_in_activity.xml" value="0.20774078369140625" />
+        <entry key="app/src/main/res/layout/mapel_detail_ips.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/profile.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/row.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/row_card.xml" value="0.2100877192982456" />
@@ -50,6 +66,7 @@
         <entry key="app/src/main/res/layout/sign_in_activity.xml" value="0.16631038905515177" />
         <entry key="app/src/main/res/layout/sign_up.xml" value="0.22101745605468748" />
         <entry key="app/src/main/res/layout/skidi.xml" value="0.2100877192982456" />
+        <entry key="app/src/main/res/layout/soal_mtk_satu.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/splash_screen.xml" value="0.165" />
         <entry key="app/src/main/res/layout/tugas_akhir.xml" value="0.19691467285156258" />
         <entry key="app/src/main/res/layout/view_tugas.xml" value="0.2980590820312501" />

@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Brain Room</string>
+    <string name="belum">Belum</string>
+    <string name="bahasa_indonesia">Bahasa Indonesia</string>
+    <string name="english">English</string>
+    <string name="fisika">Fisika</string>
+    <string name="matematika">Matematika</string>
+    <string name="kisi_kisi">Kisi - kisi</string>
+    <string name="game_education">Game education</string>
+    <string name="mtk">MTK</string>
+    <string name="b_indo">B.indo</string>
+    <string name="ips">IPS</string>
+    <string name="sejarah">Sejarah</string>
+    <string name="kimia">Kimia</string>
+    <string name="mapel_umum">Mapel umum</string>
+    <string name="jantan">jantan</string>
+    <string name="_16_tahun">16 tahun</string>
+    <string name="ipa_xii_b">IPA XII B</string>
+    <string name="dnan_attamimi">Dnan Attamimi</string>
 </resources>

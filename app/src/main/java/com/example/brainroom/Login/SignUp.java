@@ -8,14 +8,13 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.brainroom.MainActivity;
 import com.example.brainroom.R;
 
 public class SignUp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sign_up);
+        setContentView(R.layout.lo_sign_up);
 
         Button parent = findViewById(R.id.signupparent);
         Button student = findViewById(R.id.signupstudent);

@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.brainroom.Detail.DetailIndo;
+import com.example.brainroom.Mapel.Detail.DetailIndo;
 import com.example.brainroom.Mapel.Model.DataModel;
 import com.example.brainroom.R;
 
@@ -58,6 +58,7 @@ public class AdapterIndo extends RecyclerView.Adapter<AdapterIndo.HolderData> {
 
     public class HolderData extends RecyclerView.ViewHolder {
         TextView tvid, tvjudul, tvsemester;
+
 
         public HolderData(@NonNull View itemView) {
             super(itemView);
