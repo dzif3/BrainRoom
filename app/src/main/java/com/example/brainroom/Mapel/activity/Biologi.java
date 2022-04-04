@@ -27,7 +27,7 @@ public class Biologi extends AppCompatActivity {
     private RecyclerView.Adapter rvadapter;
     private RecyclerView.LayoutManager rvlayma;
     private List<DataModel> listMapel = new ArrayList<>();
-
+private String nm;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
