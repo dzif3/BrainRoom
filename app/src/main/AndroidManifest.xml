@@ -16,12 +16,16 @@
         android:theme="@style/Theme.BrainRoom"
         android:usesCleartextTraffic="true"
         tools:ignore="ExtraText,UnusedAttribute">
-
+        <!--kisi soal-->
+        <activity
+            android:name=".kisisoal.Hasil.HasilMatematika"
+            android:exported="false"
+            tools:ignore="DuplicateActivity"/>
+        <!--kisi soal-->
         <activity
             android:name=".kisisoal.soal.SoalMtkSatu"
             android:exported="false"
             tools:ignore="DuplicateActivity"/>
-       <!--kisi soal-->
         <activity
             android:name=".kisisoal.KisMTK"
             android:exported="false"
