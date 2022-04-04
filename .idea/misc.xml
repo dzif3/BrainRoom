@@ -42,6 +42,7 @@
         <entry key="app/src/main/res/layout/activity_sejarah.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.2221685791015625" />
         <entry key="app/src/main/res/layout/add_profile.xml" value="0.2100877192982456" />
+        <entry key="app/src/main/res/layout/detail_ips.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/edit_profile.xml" value="0.2100402832031248" />
         <entry key="app/src/main/res/layout/hasil_kuis.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/hasil_kuis2.xml" value="0.28229166666666666" />
@@ -57,7 +58,13 @@
         <entry key="app/src/main/res/layout/kuntul.xml" value="0.3072634038236952" />
         <entry key="app/src/main/res/layout/list_tugas.xml" value="0.25" />
         <entry key="app/src/main/res/layout/log_in_activity.xml" value="0.20774078369140625" />
+        <entry key="app/src/main/res/layout/mapel_bahasa_inggris.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/mapel_biologi.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/mapel_detail_biologi.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/mapel_detail_fisika.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/mapel_detail_ips.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/mapel_detail_kimia.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/mapel_detail_mtk.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/profile.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/row.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/row_card.xml" value="0.2100877192982456" />
@@ -78,5 +85,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.28229166666666666" />
+      </ProjectState>
+    </option>
   </component>
 </project>

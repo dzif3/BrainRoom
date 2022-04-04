@@ -59,7 +59,6 @@ public class AdapterIndo extends RecyclerView.Adapter<AdapterIndo.HolderData> {
     public class HolderData extends RecyclerView.ViewHolder {
         TextView tvid, tvjudul, tvsemester;
 
-
         public HolderData(@NonNull View itemView) {
             super(itemView);
 
