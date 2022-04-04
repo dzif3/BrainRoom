@@ -1,4 +1,4 @@
-package com.example.brainroom.Detail;
+package com.example.brainroom.Mapel.Detail;
 
 import android.os.Bundle;
 import android.widget.Toast;
@@ -31,7 +31,7 @@ public class DetailKimia extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_kimia);
+        setContentView(R.layout.mapel_detail_kimia);
 
         recyclerView = findViewById(R.id.rv_detail_kim);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);

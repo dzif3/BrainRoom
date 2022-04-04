@@ -6,21 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.brainroom.Login.LogIn;
-import com.example.brainroom.MainActivity;
-import com.example.brainroom.Mapel.activity.Matematika;
 import com.example.brainroom.R;
 
 public class EditProfile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.edit_profile);
+        setContentView(R.layout.lo_edit_profile);
 
         LinearLayout textlog = findViewById(R.id.logoutinprof);
         TextView textlogout = findViewById(R.id.logoutinprof1);

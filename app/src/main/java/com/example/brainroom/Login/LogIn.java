@@ -7,18 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.example.brainroom.MainActivity;
 import com.example.brainroom.R;
-import com.example.brainroom.profile.EditProfile;
 
 public class LogIn extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_in);
+        setContentView(R.layout.lo_sign_in);
 
         ImageView signup = findViewById(R.id.signup);
         Button login = findViewById(R.id.btn_login);

@@ -31,7 +31,7 @@ public class Matematika extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_matematika);
+        setContentView(R.layout.mapel_matematika);
 
         recyclerView = findViewById(R.id.rv_data_mtk);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);

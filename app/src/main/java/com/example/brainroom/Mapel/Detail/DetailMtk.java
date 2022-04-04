@@ -1,11 +1,11 @@
-package com.example.brainroom.Detail;
-
-import android.os.Bundle;
-import android.widget.Toast;
+package com.example.brainroom.Mapel.Detail;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.os.Bundle;
+import android.widget.Toast;
 
 import com.example.brainroom.Mapel.Interface.APIRequestData;
 import com.example.brainroom.Mapel.Model.DataModel;
@@ -21,7 +21,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class DetailIps extends AppCompatActivity {
+public class DetailMtk extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter rvadapter;
     private RecyclerView.LayoutManager rvlayma;
@@ -31,9 +31,9 @@ public class DetailIps extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_ips);
+        setContentView(R.layout.mapel_detail_mtk);
 
-        recyclerView = findViewById(R.id.rv_detail_ips);
+        recyclerView = findViewById(R.id.rv_detail_mtk);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
@@ -42,7 +42,7 @@ public class DetailIps extends AppCompatActivity {
 
     private void mapelData() {
         APIRequestData ardData = RetroServer.konekRetrofit().create(APIRequestData.class);
-        Call<ResponseModel> tampilData = ardData.ardRetrieveDataips();
+        Call<ResponseModel> tampilData = ardData.ardRetrieveDatamtk();
 
         tampilData.enqueue(new Callback<ResponseModel>() {
             @Override
@@ -52,14 +52,14 @@ public class DetailIps extends AppCompatActivity {
 
                 listMapel = response.body().getData();
 
-                rvadapter = new AdapterDetail(DetailIps.this, listMapel);
+                rvadapter = new AdapterDetail(DetailMtk.this, listMapel);
                 recyclerView.setAdapter(rvadapter);
                 rvadapter.notifyDataSetChanged();
             }
 
             @Override
             public void onFailure(Call<ResponseModel> call, Throwable t) {
-                Toast.makeText(DetailIps.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
+                Toast.makeText(DetailMtk.this, "gagal" + t.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
     }

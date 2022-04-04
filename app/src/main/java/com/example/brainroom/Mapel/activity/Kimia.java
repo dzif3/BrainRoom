@@ -30,7 +30,7 @@ public class Kimia extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kimia);
+        setContentView(R.layout.mapel_kimia);
 
         recyclerView = findViewById(R.id.rv_data_kim);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);

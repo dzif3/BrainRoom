@@ -1,13 +1,17 @@
 package com.example.brainroom;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 
+import com.example.brainroom.kisisoal.KisBahasaIndo;
+import com.example.brainroom.kisisoal.KisEnglish;
+import com.example.brainroom.kisisoal.KisFisika;
+import com.example.brainroom.kisisoal.KisMTK;
 import com.example.brainroom.Kuis.KuisFisika;
 import com.example.brainroom.Kuis.KuisInggris;
 import com.example.brainroom.Kuis.KuisMatematika;
@@ -18,7 +22,6 @@ import com.example.brainroom.Mapel.activity.Fisika;
 import com.example.brainroom.Mapel.activity.IPS;
 import com.example.brainroom.Mapel.activity.Kimia;
 import com.example.brainroom.Mapel.activity.Matematika;
-import com.example.brainroom.R;
 import com.example.brainroom.profile.EditProfile;
 
 public class MainActivity extends AppCompatActivity {
@@ -109,6 +112,36 @@ public class MainActivity extends AppCompatActivity {
         kuis2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, KuisFisika.class);
+                startActivity(intent);
+            }
+        });
+        //kisi" kali
+        CardView kimtk = findViewById(R.id.kisimtk);
+        CardView kisieng = findViewById(R.id.kisieng);
+        CardView kisifis = findViewById(R.id.kisifis);
+        CardView kisiindo = findViewById(R.id.kisiindo);
+
+        kimtk.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KisMTK.class);
+                startActivity(intent);
+            }
+        });
+        kisieng.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KisEnglish.class);
+                startActivity(intent);
+            }
+        });
+        kisiindo.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KisBahasaIndo.class);
+                startActivity(intent);
+            }
+        });
+        kisifis.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KisFisika.class);
                 startActivity(intent);
             }
         });

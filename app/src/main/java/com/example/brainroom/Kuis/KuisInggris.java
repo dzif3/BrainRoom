@@ -52,7 +52,7 @@ public class KuisInggris extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kuis_inggris);
+        setContentView(R.layout.kuis_inggris);
 
         kuis2 = (TextView) findViewById(R.id.kuis2);
         rg2 = (RadioGroup) findViewById(R.id.pilihan2);

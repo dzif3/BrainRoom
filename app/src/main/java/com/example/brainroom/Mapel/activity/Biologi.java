@@ -27,11 +27,11 @@ public class Biologi extends AppCompatActivity {
     private RecyclerView.Adapter rvadapter;
     private RecyclerView.LayoutManager rvlayma;
     private List<DataModel> listMapel = new ArrayList<>();
-
+private String nm;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_biologi);
+        setContentView(R.layout.mapel_biologi);
 
         recyclerView = findViewById(R.id.rv_data_bio);
         rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);

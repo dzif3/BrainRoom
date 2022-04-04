@@ -56,7 +56,7 @@ public class KuisMatematika extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kuis_matematika);
+        setContentView(R.layout.kuis_matematika);
 
         kuis1 = (TextView) findViewById(R.id.kuis1);
         rg1 = (RadioGroup) findViewById(R.id.pilihan1);

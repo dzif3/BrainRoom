@@ -16,7 +16,7 @@ public class HasilKuis1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hasil_kuis1);
+        setContentView(R.layout.hasil_kuis1);
 
         Button kuis = (Button) findViewById(R.id.ulang);
         kuis.setOnClickListener(new View.OnClickListener() {
