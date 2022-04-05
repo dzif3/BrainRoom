@@ -1,11 +1,11 @@
 package com.example.brainroom.Mapel.activity;
 
+import android.os.Bundle;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.widget.Toast;
 
 import com.example.brainroom.Mapel.Interface.APIRequestData;
 import com.example.brainroom.Mapel.Model.DataModel;
@@ -27,7 +27,7 @@ public class Biologi extends AppCompatActivity {
     private RecyclerView.Adapter rvadapter;
     private RecyclerView.LayoutManager rvlayma;
     private List<DataModel> listMapel = new ArrayList<>();
-private String nm;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +46,7 @@ private String nm;
 
         tampilData.enqueue(new Callback<ResponseModel>() {
             @Override
-            public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
+            public void onResponse(retrofit2.Call<ResponseModel> call, Response<ResponseModel> response) {
                 int kode = response.body().getKode();
                 String pesan = response.body().getPesan();
 
