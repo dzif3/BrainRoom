@@ -18,10 +18,17 @@
             android:layout_height="wrap_content"
             android:text="B.Inggris"
             android:textSize="20sp"
-            android:textColor="#007AFF"/>
+            android:textColor="#007AFF" />
 
     </LinearLayout>
 
+    <!--    <ProgressBar-->
+    <!--        android:id="@+id/pro1"-->
+    <!--        android:layout_width="130dp"-->
+    <!--        android:layout_height="8dp"-->
+    <!--        style="@style/Widget.AppCompat.ProgressBar.Horizontal"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:progressDrawable="@drawable/custom_progress_bg"/>-->
 
 
     <TextView
@@ -32,7 +39,7 @@
         android:text="Kuis Sederhana"
         android:id="@+id/kismtk"
         android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -44,28 +51,28 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:text="Pilihan A"
-            android:id="@+id/kismtka"/>
+            android:id="@+id/kismtka" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:text="Pilihan B"
-            android:id="@+id/kismtkb"/>
+            android:id="@+id/kismtkb" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:text="Pilihan C"
-            android:id="@+id/kismtkc"/>
+            android:id="@+id/kismtkc" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:text="Pilihan D"
-            android:id="@+id/kismtkd"/>
+            android:id="@+id/kismtkd" />
 
     </RadioGroup>
 

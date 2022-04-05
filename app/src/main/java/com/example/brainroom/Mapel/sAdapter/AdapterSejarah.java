@@ -17,9 +17,8 @@ import com.example.brainroom.R;
 import java.util.List;
 
 public class AdapterSejarah extends RecyclerView.Adapter<AdapterSejarah.HolderData> {
-    private Context ctx;
-    private List<DataModel> listmapel;
-
+    private final Context ctx;
+    private final List<DataModel> listmapel;
 
 
     public AdapterSejarah(Context ctx, List<DataModel> listmapel) {
@@ -31,7 +30,7 @@ public class AdapterSejarah extends RecyclerView.Adapter<AdapterSejarah.HolderDa
     @NonNull
     @Override
     public AdapterSejarah.HolderData onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_card,parent,false);
+        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_card, parent, false);
         HolderData holderData = new HolderData(layout);
         return holderData;
     }

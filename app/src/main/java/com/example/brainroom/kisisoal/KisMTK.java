@@ -2,7 +2,10 @@ package com.example.brainroom.kisisoal;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.util.Log;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +23,7 @@ public class KisMTK extends AppCompatActivity {
 
         TextView na = findViewById(R.id.nilaikisimtk);
         TextView nb = findViewById(R.id.nilaikisimtk1);
+
 
 
         na.setText(""+SoalMtkSatu.hasil);

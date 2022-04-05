@@ -34,7 +34,7 @@ public class DetailKimia extends AppCompatActivity {
         setContentView(R.layout.mapel_detail_kimia);
 
         recyclerView = findViewById(R.id.rv_detail_kim);
-        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
+        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
 

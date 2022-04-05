@@ -34,7 +34,7 @@ public class DetailIps extends AppCompatActivity {
         setContentView(R.layout.mapel_detail_ips);
 
         recyclerView = findViewById(R.id.rv_detail_ips);
-        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
+        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
 

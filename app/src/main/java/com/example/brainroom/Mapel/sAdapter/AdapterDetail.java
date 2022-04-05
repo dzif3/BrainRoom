@@ -19,7 +19,6 @@ public class AdapterDetail extends RecyclerView.Adapter<AdapterDetail.HolderData
     private List<DataModel> listmapel;
 
 
-
     public AdapterDetail(Context ctx, List<DataModel> listmapel) {
         this.ctx = ctx;
         this.listmapel = listmapel;
@@ -29,7 +28,7 @@ public class AdapterDetail extends RecyclerView.Adapter<AdapterDetail.HolderData
     @NonNull
     @Override
     public AdapterDetail.HolderData onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_detail,parent,false);
+        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_detail, parent, false);
         HolderData holderData = new HolderData(layout);
         return holderData;
     }
@@ -57,8 +56,8 @@ public class AdapterDetail extends RecyclerView.Adapter<AdapterDetail.HolderData
     }
 
     public class HolderData extends RecyclerView.ViewHolder {
-        TextView tvid,judul, subjudul, subjudul1,subjudul2,subjudul3,subjudul4,
-                isi,isi1,isi2,isi3,isi4;
+        TextView tvid, judul, subjudul, subjudul1, subjudul2, subjudul3, subjudul4,
+                isi, isi1, isi2, isi3, isi4;
 
         public HolderData(@NonNull View itemView) {
             super(itemView);

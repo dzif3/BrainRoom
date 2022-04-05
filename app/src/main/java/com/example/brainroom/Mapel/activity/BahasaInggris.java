@@ -34,7 +34,7 @@ public class BahasaInggris extends AppCompatActivity {
         setContentView(R.layout.mapel_bahasa_inggris);
 
         recyclerView = findViewById(R.id.rv_data_ing);
-        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
+        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
 

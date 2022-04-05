@@ -56,10 +56,11 @@
             android:layout_height="90dp"
             android:layout_marginTop="12dp"
             app:cardCornerRadius="82dp">
+
             <ImageView
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:src="@drawable/bio"/>
+                android:src="@drawable/bio" />
 
         </androidx.cardview.widget.CardView>
 
@@ -69,6 +70,7 @@
             android:layout_height="342dp"
             android:gravity="top|center"
             android:orientation="vertical">
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/fullname"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
@@ -80,6 +82,7 @@
                 app:helperTextTextColor="@color/biru"
                 android:inputType="textPersonName"
                 android:layout_marginTop="22dp">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
@@ -97,6 +100,7 @@
                 app:endIconMode="clear_text"
                 app:helperText="Required*"
                 app:helperTextTextColor="@color/biru">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
@@ -114,6 +118,7 @@
                 android:layout_marginTop="12dp"
                 app:helperText="Required*"
                 app:helperTextTextColor="@color/biru">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
@@ -131,6 +136,7 @@
                 android:layout_marginTop="12dp"
                 app:helperText="Required*"
                 app:helperTextTextColor="@color/biru">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="300dp"
                     android:layout_height="45dp" />

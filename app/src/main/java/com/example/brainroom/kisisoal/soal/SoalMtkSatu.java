@@ -4,14 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.util.Log;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.brainroom.MainActivity;
+import com.example.brainroom.Mapel.activity.Fisika;
+import com.example.brainroom.Mapel.activity.Kimia;
 import com.example.brainroom.kisisoal.Hasil.HasilMatematika;
 import com.example.brainroom.R;
+import com.example.brainroom.kisisoal.KisMTK;
 
 public class SoalMtkSatu extends AppCompatActivity {
     TextView kuis;
@@ -52,6 +59,36 @@ public class SoalMtkSatu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.soal_mtk_satu);
+
+//        final ProgressBar mProgressBar;
+//        CountDownTimer mCountDownTimer;
+//        final int[] i = {0};
+//
+//        mProgressBar=(ProgressBar)findViewById(R.id.pro1);
+//        mProgressBar.setProgress(i[0]);
+//        mCountDownTimer=new CountDownTimer(100000,100) {
+//
+//            @Override
+//            public void onTick(long millisUntilFinished) {
+//                Log.v("Log_tag", "Tick of Progress" + i[0] + millisUntilFinished);
+//                i[0]++;
+//                mProgressBar.setProgress(i[0]);
+//
+//                if (millisUntilFinished > 0){
+//                    Intent intent = new Intent(SoalMtkSatu.this, KisMTK.class);
+//                }
+//
+//            }
+//
+//            @Override
+//            public void onFinish() {
+//                Intent myIntent = new Intent(getApplicationContext(), KisMTK.class);
+//                startActivity(myIntent);
+//            }
+//        };
+//        mCountDownTimer.start();;
+
+
 
         kuis = findViewById(R.id.kismtk);
         rg = findViewById(R.id.soalmtk);

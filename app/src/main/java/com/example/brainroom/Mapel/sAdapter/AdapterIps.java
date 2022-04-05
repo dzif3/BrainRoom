@@ -21,7 +21,6 @@ public class AdapterIps extends RecyclerView.Adapter<AdapterIps.HolderData> {
     private List<DataModel> listmapel;
 
 
-
     public AdapterIps(Context ctx, List<DataModel> listmapel) {
         this.ctx = ctx;
         this.listmapel = listmapel;
@@ -31,7 +30,7 @@ public class AdapterIps extends RecyclerView.Adapter<AdapterIps.HolderData> {
     @NonNull
     @Override
     public AdapterIps.HolderData onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_detail_2,parent,false);
+        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_detail_2, parent, false);
         HolderData holderData = new HolderData(layout);
         return holderData;
     }

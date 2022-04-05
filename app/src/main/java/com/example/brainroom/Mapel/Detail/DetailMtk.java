@@ -34,7 +34,7 @@ public class DetailMtk extends AppCompatActivity {
         setContentView(R.layout.mapel_detail_mtk);
 
         recyclerView = findViewById(R.id.rv_detail_mtk);
-        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
+        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
 

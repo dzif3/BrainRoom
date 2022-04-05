@@ -14,7 +14,7 @@
         android:layout_gravity="top"
         android:layout_width="130dp"
         android:layout_height="80dp"
-        android:background="@drawable/brain_room_biru"/>
+        android:background="@drawable/brain_room_biru" />
 
     <LinearLayout
         android:layout_marginTop="5dp"
@@ -23,40 +23,40 @@
         android:layout_gravity="center"
         android:orientation="horizontal">
 
-    <androidx.cardview.widget.CardView
-        android:layout_marginTop="5dp"
-        android:layout_width="350dp"
-        android:layout_height="100dp"
-        app:cardCornerRadius="15dp">
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="15dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_marginTop="25dp"
-            android:id="@+id/imageViewCardHome"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="left"
-            android:src="@drawable/fisika_button"
-            android:layout_marginLeft="25dp"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="25dp"
+                android:id="@+id/imageViewCardHome"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:src="@drawable/fisika_button"
+                android:layout_marginLeft="25dp" />
 
-        <TextView
-            android:id="@+id/fisika_view_tugas"
-            android:layout_width="70dp"
-            android:layout_height="30dp"
-            android:text="Fisika"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="140dp"
-            android:textColor="@color/biru"
-            android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/fisika_view_tugas"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="Fisika"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="140dp"
+                android:textColor="@color/biru"
+                android:textSize="25sp" />
 
-        <ImageView
-            android:layout_marginLeft="290dp"
-            android:layout_marginTop="45dp"
-            android:layout_width="15dp"
-            android:layout_height="10dp"
-            android:background="@drawable/slidedown_more"/>
+            <ImageView
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:background="@drawable/slidedown_more" />
 
 
-    </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 
@@ -92,22 +92,22 @@
                             android:layout_height="25dp"
                             android:text="Theory :"
                             android:layout_marginLeft="16dp"
-                            android:layout_marginTop="18dp"/>
+                            android:layout_marginTop="18dp" />
 
                         <TextView
                             android:layout_width="95dp"
                             android:layout_height="25dp"
                             android:text="Finishing time"
                             android:layout_marginLeft="135dp"
-                            android:layout_marginTop="18dp"/>
+                            android:layout_marginTop="18dp" />
 
                     </LinearLayout>
 
 
                     <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:orientation="horizontal">
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="130dp"
@@ -116,7 +116,7 @@
                             android:textSize="16sp"
                             android:layout_marginLeft="16dp"
                             android:layout_marginTop="5dp"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black" />
 
                         <TextView
                             android:layout_width="150dp"
@@ -125,7 +125,7 @@
                             android:textSize="15sp"
                             android:layout_marginLeft="50dp"
                             android:layout_marginTop="5dp"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black" />
 
                     </LinearLayout>
 
@@ -139,14 +139,14 @@
                             android:layout_height="25dp"
                             android:text="Status :"
                             android:layout_marginLeft="16dp"
-                            android:layout_marginTop="18dp"/>
+                            android:layout_marginTop="18dp" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:orientation="horizontal">
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="130dp"
@@ -155,15 +155,15 @@
                             android:textSize="16sp"
                             android:layout_marginLeft="16dp"
                             android:layout_marginTop="5dp"
-                            android:textColor="@color/black"/>
-                        
+                            android:textColor="@color/black" />
+
                         <ProgressBar
                             android:layout_width="130dp"
                             android:layout_height="8dp"
                             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                             android:layout_marginLeft="48dp"
                             android:layout_marginTop="10dp"
-                            android:progressDrawable="@drawable/custom_progress_bg"/>
+                            android:progressDrawable="@drawable/custom_progress_bg" />
 
 
                     </LinearLayout>
@@ -200,14 +200,14 @@
                             android:layout_height="25dp"
                             android:text="Theory :"
                             android:layout_marginLeft="16dp"
-                            android:layout_marginTop="18dp"/>
+                            android:layout_marginTop="18dp" />
 
                         <TextView
                             android:layout_width="95dp"
                             android:layout_height="25dp"
                             android:text="Finishing time"
                             android:layout_marginLeft="135dp"
-                            android:layout_marginTop="18dp"/>
+                            android:layout_marginTop="18dp" />
 
                     </LinearLayout>
 
@@ -224,7 +224,7 @@
                             android:textSize="16sp"
                             android:layout_marginLeft="16dp"
                             android:layout_marginTop="5dp"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black" />
 
                         <TextView
                             android:layout_width="150dp"
@@ -233,7 +233,7 @@
                             android:textSize="15sp"
                             android:layout_marginLeft="50dp"
                             android:layout_marginTop="5dp"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black" />
 
                     </LinearLayout>
 
@@ -247,7 +247,7 @@
                             android:layout_height="25dp"
                             android:text="Status :"
                             android:layout_marginLeft="16dp"
-                            android:layout_marginTop="18dp"/>
+                            android:layout_marginTop="18dp" />
 
                     </LinearLayout>
 
@@ -263,13 +263,13 @@
                             android:textSize="16sp"
                             android:layout_marginLeft="16dp"
                             android:layout_marginTop="5dp"
-                            android:textColor="@color/black"/>
-                        
+                            android:textColor="@color/black" />
+
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="29dp"
                             android:background="@drawable/notyet_button"
-                            android:layout_marginLeft="70dp"/>
+                            android:layout_marginLeft="70dp" />
 
                     </LinearLayout>
 
@@ -281,6 +281,6 @@
         </LinearLayout>
 
 
-</LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>

@@ -7,8 +7,8 @@ public class RetroServer {
     private static final String baseURL = "http://10.0.2.2/mapel/";
     private static Retrofit retrofit;
 
-    public static  Retrofit konekRetrofit(){
-        if(retrofit == null){
+    public static Retrofit konekRetrofit() {
+        if (retrofit == null) {
             retrofit = new Retrofit.Builder()
                     .baseUrl(baseURL)
                     .addConverterFactory(GsonConverterFactory.create())

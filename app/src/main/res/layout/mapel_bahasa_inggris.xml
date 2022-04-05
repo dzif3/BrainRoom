@@ -7,39 +7,37 @@
     android:background="@drawable/bbbbb"
     tools:context=".Mapel.activity.IPS">
 
-  <LinearLayout
-      android:background="@drawable/background"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:layout_gravity="center"
-      android:orientation="vertical"
-      >
-    <ImageView
-        android:layout_marginLeft="132dp"
-        android:layout_marginTop="12dp"
-        android:layout_gravity="top"
-        android:layout_width="130dp"
-        android:layout_height="80dp"
-        android:background="@drawable/brain_room_biru"/>
-
     <LinearLayout
-        android:layout_marginTop="40dp"
-        android:background="@drawable/bbbbb"
+        android:background="@drawable/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
-      <androidx.recyclerview.widget.RecyclerView
-          android:id="@+id/rv_data_ing"
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          tools:ignore="UnknownId"
-          tools:listitem="@layout/row_detail_2"
-          />
+        <ImageView
+            android:layout_marginLeft="132dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="top"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:background="@drawable/brain_room_biru" />
 
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bbbbb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_data_ing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="UnknownId"
+                tools:listitem="@layout/row_detail_2" />
+
+        </LinearLayout>
     </LinearLayout>
-  </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

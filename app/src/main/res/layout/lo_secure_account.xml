@@ -94,6 +94,7 @@
                 android:layout_height="171dp"
                 android:gravity="top|center"
                 android:orientation="vertical">
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/Password"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"

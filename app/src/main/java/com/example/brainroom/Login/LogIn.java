@@ -29,7 +29,7 @@ public class LogIn extends AppCompatActivity {
         });
         signup.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(LogIn.this,SignUp .class);
+                Intent intent = new Intent(LogIn.this, SignUp.class);
                 startActivity(intent);
             }
         });

@@ -97,9 +97,8 @@ public class KuisMatematika extends AppCompatActivity {
                 Intent selesai = new Intent(getApplicationContext(), HasilKuis.class);
                 startActivity(selesai);
             }
-        }
-        else {
-            Toast.makeText(this,"Silahkan Pilih jawaban diatas",Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(this, "Silahkan Pilih jawaban diatas", Toast.LENGTH_LONG).show();
         }
     }
 }

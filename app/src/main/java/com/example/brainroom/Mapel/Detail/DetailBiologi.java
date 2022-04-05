@@ -34,7 +34,7 @@ public class DetailBiologi extends AppCompatActivity {
         setContentView(R.layout.mapel_detail_biologi);
 
         recyclerView = findViewById(R.id.rv_detail_biologi);
-        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
+        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
 

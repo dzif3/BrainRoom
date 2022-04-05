@@ -34,17 +34,17 @@ public class HasilKuis extends AppCompatActivity {
             }
         });
 
-        TextView hasil = (TextView)findViewById(R.id.hasil);
-        TextView nilai = (TextView)findViewById(R.id.nilai);
+        TextView hasil = (TextView) findViewById(R.id.hasil);
+        TextView nilai = (TextView) findViewById(R.id.nilai);
 
-        hasil.setText("Jawaban Benar :"+KuisFisika.benar+"\nJawaban Salah :"+KuisFisika.salah);
-        nilai.setText(""+KuisFisika.hasil);
+        hasil.setText("Jawaban Benar :" + KuisFisika.benar + "\nJawaban Salah :" + KuisFisika.salah);
+        nilai.setText("" + KuisFisika.hasil);
 
     }
 
-    public void ulangi(View view){
+    public void ulangi(View view) {
         finish();
-        Intent a = new Intent(getApplicationContext(),KuisFisika.class);
-        startActivity(a); 
+        Intent a = new Intent(getApplicationContext(), KuisFisika.class);
+        startActivity(a);
     }
 }

@@ -34,7 +34,7 @@ public class Detailinggris extends AppCompatActivity {
         setContentView(R.layout.mapel_detail_inggris);
 
         recyclerView = findViewById(R.id.rv_detail_ing);
-        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
+        rvlayma = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(rvlayma);
         mapelData();
 
