@@ -377,7 +377,7 @@
             android:text="@string/kisi_kisi"
             android:textSize="15sp"
             android:layout_marginStart="38dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="10dp"/>
 
     </LinearLayout>
 
@@ -398,10 +398,10 @@
                 app:cardCornerRadius="15dp">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="25dp"
                     android:background="@drawable/mtk_button" />
 
                 <TextView
@@ -422,12 +422,6 @@
                     android:textColor="@color/gray"
                     android:textSize="15sp" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="300dp"
-                    android:layout_marginTop="35dp"
-                    android:background="@drawable/rightarrow" />
 
 
             </androidx.cardview.widget.CardView>
@@ -441,10 +435,10 @@
                 app:cardCornerRadius="15dp">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="25dp"
                     android:background="@drawable/fisika_button" />
 
                 <TextView
@@ -465,13 +459,6 @@
                     android:textColor="@color/gray"
                     android:textSize="15sp" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="300dp"
-                    android:layout_marginTop="35dp"
-                    android:background="@drawable/rightarrow" />
-
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -484,10 +471,10 @@
                 app:cardCornerRadius="15dp">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="25dp"
                     android:background="@drawable/english_button" />
 
                 <TextView
@@ -508,12 +495,6 @@
                     android:textColor="@color/gray"
                     android:textSize="15sp" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="300dp"
-                    android:layout_marginTop="35dp"
-                    android:background="@drawable/rightarrow" />
 
             </androidx.cardview.widget.CardView>
 
@@ -527,10 +508,10 @@
                 app:cardCornerRadius="15dp">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="25dp"
                     android:background="@drawable/bindo_buttton" />
 
                 <TextView
@@ -551,12 +532,6 @@
                     android:textColor="@color/gray"
                     android:textSize="15sp" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="300dp"
-                    android:layout_marginTop="35dp"
-                    android:background="@drawable/rightarrow" />
 
             </androidx.cardview.widget.CardView>
 
