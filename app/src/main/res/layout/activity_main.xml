@@ -341,27 +341,27 @@
 
                 <ImageView
                     android:id="@+id/kuisfisika"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:background="@drawable/ellipse"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/qfisika"
                     android:layout_marginStart="40dp"/>
 
                 <ImageView
                     android:id="@+id/kuismtk"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:background="@drawable/ellipseijo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/qmatematika"
                     android:layout_marginStart="40dp"/>
                 <ImageView
                     android:id="@+id/kuisbing"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:background="@drawable/ellipseoren"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/qinggris"
                     android:layout_marginStart="40dp"/>
                 <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:background="@drawable/ellipseink"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/qindo"
                     android:layout_marginStart="40dp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
