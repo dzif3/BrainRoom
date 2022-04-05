@@ -31,7 +31,7 @@ public class AdapterFisika extends RecyclerView.Adapter<AdapterFisika.HolderData
     @NonNull
     @Override
     public AdapterFisika.HolderData onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_card,parent,false);
+        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_detail_2,parent,false);
         HolderData holderData = new HolderData(layout);
         return holderData;
     }
@@ -40,7 +40,7 @@ public class AdapterFisika extends RecyclerView.Adapter<AdapterFisika.HolderData
     public void onBindViewHolder(@NonNull AdapterFisika.HolderData holder, final int position) {
         DataModel dataModel = listmapel.get(position);
         holder.tvid.setText(String.valueOf(dataModel.getId()));
-        holder.tvsemester.setText(dataModel.getSemester());
+        holder.tvisi.setText(dataModel.getIsi());
         holder.tvjudul.setText(dataModel.getJudul());
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,13 +57,13 @@ public class AdapterFisika extends RecyclerView.Adapter<AdapterFisika.HolderData
     }
 
     public class HolderData extends RecyclerView.ViewHolder {
-        TextView tvid, tvjudul, tvsemester;
+        TextView tvid, tvjudul, tvisi;
 
         public HolderData(@NonNull View itemView) {
             super(itemView);
 
             tvid = itemView.findViewById(R.id.tvid);
-            tvsemester = itemView.findViewById(R.id.semester);
+            tvisi = itemView.findViewById(R.id.isi);
             tvjudul = itemView.findViewById(R.id.judul);
 
         }
