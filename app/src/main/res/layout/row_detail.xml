@@ -12,31 +12,47 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tvidd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="gone" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/subjudul"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="subjudul"
-            android:paddingTop="10dp"
-            android:textSize="20dp"
-            android:textColor="#000000" />
+                        <LinearLayout
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/subjudul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="subjudul"
+                        android:paddingTop="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000" />
 
-        <TextView
-            android:id="@+id/isi"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="isi"
-            android:paddingTop="10dp"
-            android:textSize="15dp"
-            android:textColor="#0C0C0C" />
+                        <TextView
+                            android:id="@+id/isi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="isi"
+                            android:paddingTop="10dp"
+                            android:textSize="15dp"
+                            android:textColor="#0C0C0C" />
 
+                        </LinearLayout>
 
+                    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <TextView
             android:id="@+id/subjudul1"
             android:layout_width="match_parent"
@@ -54,7 +70,20 @@
             android:paddingTop="10dp"
             android:textSize="15dp"
             android:textColor="#0C0C0C" />
+    </LinearLayout>
 
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <TextView
             android:id="@+id/subjudul2"
             android:layout_width="match_parent"
@@ -73,6 +102,20 @@
             android:textSize="15dp"
             android:textColor="#0C0C0C" />
 
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <TextView
             android:id="@+id/subjudul3"
             android:layout_width="match_parent"
@@ -91,6 +134,20 @@
             android:textSize="15dp"
             android:textColor="#0C0C0C" />
 
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <TextView
             android:id="@+id/subjudul4"
             android:layout_width="match_parent"
@@ -108,6 +165,10 @@
             android:paddingTop="10dp"
             android:textSize="15dp"
             android:textColor="#0C0C0C" />
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
 
 
     </LinearLayout>
