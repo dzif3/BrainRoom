@@ -14,7 +14,7 @@ public class HasilKuis3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hasil_kuis3);
+        setContentView(R.layout.hasil_kuis3);
         TextView hasil = (TextView) findViewById(R.id.hasil3);
         TextView nilai = (TextView) findViewById(R.id.nilai3);
 

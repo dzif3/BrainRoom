@@ -22,6 +22,7 @@
         <entry key="app/src/main/res/layout/activity_hasil_kuis.xml" value="0.24664370771767435" />
         <entry key="app/src/main/res/layout/activity_hasil_kuis1.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/activity_hasil_kuis2.xml" value="0.2100877192982456" />
+        <entry key="app/src/main/res/layout/activity_hasil_kuis3.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_ips.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/activity_kimia.xml" value="0.2100877192982456" />
@@ -33,9 +34,11 @@
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.2221685791015625" />
         <entry key="app/src/main/res/layout/add_profile.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/edit_profile.xml" value="0.2100402832031248" />
+        <entry key="app/src/main/res/layout/hasil_kis.xml" value="0.2682291666666667" />
         <entry key="app/src/main/res/layout/hasil_kuis.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/hasil_kuis1.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/hasil_kuis2.xml" value="0.2100877192982456" />
+        <entry key="app/src/main/res/layout/hasil_kuis3.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/home.xml" value="0.12638549804687496" />
         <entry key="app/src/main/res/layout/itulah.xml" value="0.19157608695652173" />
         <entry key="app/src/main/res/layout/kis_bindo.xml" value="0.2100877192982456" />
@@ -69,6 +72,7 @@
         <entry key="app/src/main/res/layout/sign_in_activity.xml" value="0.16631038905515177" />
         <entry key="app/src/main/res/layout/sign_up.xml" value="0.22101745605468748" />
         <entry key="app/src/main/res/layout/skidi.xml" value="0.2100877192982456" />
+        <entry key="app/src/main/res/layout/soal_kis_mtk.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/soal_mtk_satu.xml" value="0.2100877192982456" />
         <entry key="app/src/main/res/layout/splash_screen.xml" value="0.14297851562500008" />
         <entry key="app/src/main/res/layout/tugas_akhir.xml" value="0.19691467285156258" />

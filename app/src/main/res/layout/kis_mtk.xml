@@ -161,7 +161,7 @@
                                 android:id="@+id/nilaikisimtk"
                                 android:layout_width="130dp"
                                 android:layout_height="25dp"
-                                android:text="000"
+                                android:text="0"
                                 android:textSize="16sp"
                                 android:layout_marginLeft="16dp"
                                 android:layout_marginTop="5dp"
@@ -272,11 +272,20 @@
                                 android:id="@+id/nilaikisimtk1"
                                 android:layout_width="130dp"
                                 android:layout_height="25dp"
-                                android:text="000"
+                                android:text="0"
                                 android:textSize="16sp"
                                 android:layout_marginLeft="16dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/black" />
+
+                            <ProgressBar
+                                android:layout_width="130dp"
+                                android:layout_height="8dp"
+                                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                android:layout_marginLeft="48dp"
+                                android:layout_marginTop="10dp"
+                                android:progressDrawable="@drawable/custom_progress_bg" />
+
 
 
                         </LinearLayout>

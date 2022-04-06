@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.brainroom">
+    package="com.example.brainroom" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,42 +15,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BrainRoom"
         android:usesCleartextTraffic="true"
-        tools:ignore="ExtraText,UnusedAttribute">
-        <!--kisi soal-->
+        tools:ignore="ExtraText,UnusedAttribute" >
         <activity
-            android:name=".kisisoal.Hasil.HasilMatematika"
-            android:exported="false"
-            tools:ignore="DuplicateActivity"/>
-        <!--kisi soal-->
+            android:name=".kisisoal.soal.Hasil_kis"
+            android:exported="false" />
         <activity
-            android:name=".kisisoal.soal.SoalMtkSatu"
-            android:exported="false"
-            tools:ignore="DuplicateActivity"/>
+            android:name=".kisisoal.soal.SoalKis_Mtk"
+            android:exported="false" />
+        <!-- kisi soal -->
+
         <activity
             android:name=".kisisoal.KisMTK"
             android:exported="false"
-            tools:ignore="DuplicateActivity"/>
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".kisisoal.KisBahasaIndo"
             android:exported="false"
-            tools:ignore="DuplicateActivity"/>
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".kisisoal.KisEnglish"
             android:exported="false"
-            tools:ignore="DuplicateActivity"/>
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".kisisoal.KisFisika"
             android:exported="false"
-            tools:ignore="DuplicateActivity"/>
-                    <!--Detail-->
+            tools:ignore="DuplicateActivity" /> <!-- Detail -->
         <activity
             android:name=".Mapel.Detail.DetailMtk"
             android:exported="false"
-            tools:ignore="DuplicateActivity"/>
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".Mapel.Detail.DetailIndo"
             android:exported="false"
-            tools:ignore="DuplicateActivity"/>
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".Mapel.Detail.DetailBiologi"
             android:exported="false"
@@ -70,12 +67,10 @@
         <activity
             android:name=".Mapel.Detail.DetailIps"
             android:exported="false"
-            tools:ignore="DuplicateActivity" />
-                <!-- Profile-->
+            tools:ignore="DuplicateActivity" /> <!-- Profile -->
         <activity
             android:name=".profile.EditProfile"
-            android:exported="false" />
-                    <!-- Kuis -->
+            android:exported="false" /> <!-- Kuis -->
         <activity
             android:name=".Kuis.HasilKuis"
             android:exported="false" />
@@ -87,8 +82,7 @@
             android:exported="false" />
         <activity
             android:name=".Kuis.KuisFisika"
-            android:exported="false" />
-                    <!-- mapel -->
+            android:exported="false" /> <!-- mapel -->
         <activity
             android:name=".Mapel.activity.Matematika"
             android:exported="false"
@@ -125,7 +119,7 @@
             android:exported="false" />
         <activity
             android:name=".splashscree.SplashScreen"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
