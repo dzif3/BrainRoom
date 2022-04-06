@@ -168,7 +168,6 @@
                                 android:textColor="@color/black" />
 
                             <ProgressBar
-                                android:id="@+id/pro1"
                                 android:layout_width="130dp"
                                 android:layout_height="8dp"
                                 style="@style/Widget.AppCompat.ProgressBar.Horizontal"

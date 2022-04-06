@@ -62,7 +62,7 @@ public class AdapterSejarah extends RecyclerView.Adapter<AdapterSejarah.HolderDa
             super(itemView);
 
             tvid = itemView.findViewById(R.id.tvid);
-            tvsemester = itemView.findViewById(R.id.semester);
+            tvsemester = itemView.findViewById(R.id.isi);
             tvjudul = itemView.findViewById(R.id.judul);
 
         }

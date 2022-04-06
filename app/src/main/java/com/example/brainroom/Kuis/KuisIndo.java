@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -13,6 +14,8 @@ import android.widget.Toast;
 import com.example.brainroom.R;
 
 public class KuisIndo extends AppCompatActivity {
+    private ProgressBar pfz;
+    private int counter = 0;
 
     TextView kuis3;
     RadioGroup rg3;
@@ -54,6 +57,7 @@ public class KuisIndo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kuis_indo);
 
+        pfz = findViewById(R.id.pro3);
         kuis3 = (TextView) findViewById(R.id.kuis2);
         rg3 = (RadioGroup) findViewById(R.id.pilihan2);
         PilihanA3 = (RadioButton) findViewById(R.id.pilihanA2);
@@ -87,6 +91,10 @@ public class KuisIndo extends AppCompatActivity {
                 PilihanB3.setText(pilihan_jawaban_indo[(nomor3 * 4) + 1]);
                 PilihanC3.setText(pilihan_jawaban_indo[(nomor3 * 4) + 2]);
                 PilihanD3.setText(pilihan_jawaban_indo[(nomor3 * 4) + 3]);
+
+                counter = counter + 20 ;
+                pfz.setProgress(counter);
+                pfz.setMax(100);
 
             } else {
                 hasil3 = benar3 * 20;

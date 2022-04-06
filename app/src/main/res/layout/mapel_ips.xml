@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 tools:ignore="UnknownId"
-                tools:listitem="@layout/row_detail_2" />
+                tools:listitem="@layout/row_card" />
 
         </LinearLayout>
     </LinearLayout>

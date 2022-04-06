@@ -3,6 +3,7 @@ package com.example.brainroom.Kuis;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -13,6 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.brainroom.R;
 
 public class KuisFisika extends AppCompatActivity {
+    private ProgressBar pfz;
+    private int counter = 0;
     TextView kuis;
     RadioGroup rg;
     RadioButton PilihanA, PilihanB, PilihanC, PilihanD;
@@ -51,6 +54,7 @@ public class KuisFisika extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kuis_fisika);
 
+        pfz = findViewById(R.id.pro4);
         kuis = (TextView) findViewById(R.id.kuis);
         rg = (RadioGroup) findViewById(R.id.pilihan);
         PilihanA = (RadioButton) findViewById(R.id.pilihanA);
@@ -84,6 +88,10 @@ public class KuisFisika extends AppCompatActivity {
                 PilihanB.setText(pilihan_jawaban[(nomor * 4) + 1]);
                 PilihanC.setText(pilihan_jawaban[(nomor * 4) + 2]);
                 PilihanD.setText(pilihan_jawaban[(nomor * 4) + 3]);
+
+                counter = counter + 20 ;
+                pfz.setProgress(counter);
+                pfz.setMax(100);
 
             } else {
                 hasil = benar * 20;

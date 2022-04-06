@@ -30,7 +30,7 @@ public class AdapterKimia extends RecyclerView.Adapter<AdapterKimia.HolderData> 
     @NonNull
     @Override
     public AdapterKimia.HolderData onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_detail_2, parent, false);
+        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_card, parent, false);
         HolderData holderData = new HolderData(layout);
         return holderData;
     }

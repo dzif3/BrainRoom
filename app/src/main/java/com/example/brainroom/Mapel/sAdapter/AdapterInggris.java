@@ -30,7 +30,7 @@ public class AdapterInggris extends RecyclerView.Adapter<AdapterInggris.HolderDa
     @NonNull
     @Override
     public AdapterInggris.HolderData onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_detail_2, parent, false);
+        View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_card, parent, false);
         HolderData holderData = new HolderData(layout);
         return holderData;
     }
