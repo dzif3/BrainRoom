@@ -15,6 +15,7 @@ import com.example.brainroom.kisisoal.KisMTK;
 import com.example.brainroom.Kuis.KuisFisika;
 import com.example.brainroom.Kuis.KuisInggris;
 import com.example.brainroom.Kuis.KuisMatematika;
+import com.example.brainroom.Login.LogIn;
 import com.example.brainroom.Mapel.activity.BahasaIndonesia;
 import com.example.brainroom.Mapel.activity.BahasaInggris;
 import com.example.brainroom.Mapel.activity.Biologi;
@@ -24,6 +25,7 @@ import com.example.brainroom.Mapel.activity.Kimia;
 import com.example.brainroom.Mapel.activity.Matematika;
 import com.example.brainroom.profile.EditProfile;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -31,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Initialize Firebase Auth
+//
         //Profile
         ImageView setting = findViewById(R.id.buttonsetting);
         setting.setOnClickListener(new View.OnClickListener() {

@@ -72,7 +72,6 @@
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/fullname"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:layout_width="311dp"
                 android:layout_height="wrap_content"
@@ -84,13 +83,13 @@
                 android:layout_marginTop="22dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fullname"
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/Phonenumber"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:layout_width="311dp"
                 android:layout_height="wrap_content"
@@ -102,13 +101,13 @@
                 app:helperTextTextColor="@color/biru">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Phonenumber"
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/school"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:layout_width="311dp"
                 android:layout_height="wrap_content"
@@ -120,13 +119,13 @@
                 app:helperTextTextColor="@color/biru">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/school"
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/Age"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:layout_width="311dp"
                 android:layout_height="wrap_content"
@@ -138,6 +137,7 @@
                 app:helperTextTextColor="@color/biru">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Age"
                     android:layout_width="300dp"
                     android:layout_height="45dp" />
 

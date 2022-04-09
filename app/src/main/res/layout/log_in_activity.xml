@@ -109,6 +109,5 @@
         android:background="@drawable/signin"
         android:textStyle="normal"
         android:textAllCaps="false" />
-    android:onClick=""
 
 </LinearLayout>
